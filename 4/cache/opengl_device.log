@@ -1,0 +1,8 @@
+DriverVersion: 8.15.11.8593
+DriverDate: 5-14-2009
+DeviceID: PCI\VEN_10DE&DEV_06E4&SUBSYS_103919DA&REV_A1
+AdapterVendorID: 0x10de
+AdapterDeviceID: 0x06e4
+AdapterSubsysID: 0x103919da
+DeviceKey: System\CurrentControlSet\Control\Video\{FD516D5F-35D7-4AB8-A364-BA71C16B4012}\0000
+DeviceString: NVIDIA GeForce 8400 GS (Microsoft Corporation - WDDM v1.1)

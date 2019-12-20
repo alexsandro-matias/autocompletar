@@ -161,3 +161,17 @@ Reinstalling all deployed packages...
 ###### Progress log entry 2019-11-17 15:04:41 ######
 ###### Progress log entry 2019-11-17 16:21:03 ######
 ###### Progress log entry 2019-11-17 17:41:05 ######
+###### Progress log entry 2019-12-20 01:52:21 ######
+Reinstalling all deployed packages...
+###### Progress log entry 2019-12-20 01:52:41 ######
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: French.linguistic.resources.from.Dicollecte.by.OlivierR", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: Natura.OOo3.pt-PT-dictionary", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: aragonese_spellchecker.from.Paricio.Martinez.ACAR", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: com.sun.star.comp.Calc.NLPSolver", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: com.sun.wiki-publisher", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: galician.gl.dicts.from.Proxecto.Trasno", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: occitan.lengadocian.by.GallartBruno", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: org.openoffice.en.hunspell.dictionaries", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: softcatala.catalan.dictionary", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: spanish.es_ANY.dicts.from.rla-es", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
+###### Progress log entry 2019-12-20 02:27:30 ######
