@@ -31,6 +31,7 @@ Call
 Capability
 Caseid
 Check
+Company
 Construction
 Control
 DAAG
@@ -54,6 +55,7 @@ EP
 Ed
 Ed.ID
 Elaboration
+Eletric
 Eliliane
 Engineering
 Enterprise
@@ -64,6 +66,7 @@ GANTT
 GC
 GlusterFS
 Hat
+Hawthorne
 Highway
 IDs
 IFPE
@@ -219,6 +222,7 @@ caseid
 cluster
 clusters
 code
+contra-escopo
 coupled
 csv
 dead
@@ -256,6 +260,7 @@ join
 joins
 josianemarias@hotmail.com
 josianesantos@olympus.com
+kick-off
 l.nome
 left
 like
@@ -298,6 +303,7 @@ pedrosantos@olympus.com
 pipelining
 pk
 plot
+pmcanvas
 ppi
 pri
 procedure
@@ -319,6 +325,7 @@ sophianaiara@olympus.com
 spanned
 spider
 spooling
+stakeholder
 subset
 summary
 swapping
@@ -337,5 +344,6 @@ vincentarelbundock.github.io
 weight
 where
 worst-fit
+www.pmcanvas.com.br
 yearVeh
 yearacc
