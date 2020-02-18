@@ -175,3 +175,6 @@ ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o fo
 ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: softcatala.catalan.dictionary", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
 ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "N\X00e3o foi implantada nenhuma extens\X00e3o desse tipo: spanish.es_ANY.dicts.from.rla-es", Context = (com.sun.star.uno.XInterface) @b1ea388 } }, ArgumentPosition = (short) -1 }
 ###### Progress log entry 2019-12-20 02:27:30 ######
+###### Progress log entry 2020-02-17 20:15:14 ######
+Reinstalling all deployed packages...
+###### Progress log entry 2020-02-17 20:15:30 ######
