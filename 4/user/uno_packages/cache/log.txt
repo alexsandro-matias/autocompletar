@@ -191,3 +191,22 @@ ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no
 ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: com.sun.wiki-publisher", Context = (com.sun.star.uno.XInterface) @19cd9b4cd28 } }, ArgumentPosition = (short) -1 }
 ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: org.openoffice.en.hunspell.dictionaries", Context = (com.sun.star.uno.XInterface) @19cd9b4cd28 } }, ArgumentPosition = (short) -1 }
 ERROR: (com.sun.star.lang.IllegalArgumentException) { { { Message = "There is no such extension deployed: spanish.es_ANY.dicts.from.rla-es", Context = (com.sun.star.uno.XInterface) @19cd9b4cd28 } }, ArgumentPosition = (short) -1 }
+###### Progress log entry 2020-06-07 13:30:47 ######
+Reinstalling all deployed packages...
+###### Progress log entry 2020-06-07 13:48:58 ######
+###### Progress log entry 2020-06-07 16:48:28 ######
+###### Progress log entry 2020-06-07 18:52:17 ######
+###### Progress log entry 2020-06-07 18:52:21 ######
+###### Progress log entry 2020-06-07 19:16:02 ######
+###### Progress log entry 2020-06-07 19:34:49 ######
+###### Progress log entry 2020-06-10 21:47:09 ######
+###### Progress log entry 2020-06-11 10:02:23 ######
+###### Progress log entry 2020-06-11 10:39:31 ######
+###### Progress log entry 2020-06-11 21:40:00 ######
+###### Progress log entry 2020-06-11 22:05:40 ######
+###### Progress log entry 2020-06-11 22:06:01 ######
+###### Progress log entry 2020-06-11 22:06:10 ######
+###### Progress log entry 2020-06-11 22:34:38 ######
+###### Progress log entry 2020-06-11 22:48:03 ######
+###### Progress log entry 2020-06-11 22:48:27 ######
+###### Progress log entry 2020-06-12 13:48:14 ######
