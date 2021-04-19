@@ -1,0 +1,8 @@
+RenderMethod: vulkan
+Vendor: 0x1002
+Device: 0x15dd
+API: 1.2.133
+Driver: 2.0.137
+DeviceType: integrated
+DeviceName: AMD Radeon(TM) Vega 8 Graphics
+Denylisted: no
