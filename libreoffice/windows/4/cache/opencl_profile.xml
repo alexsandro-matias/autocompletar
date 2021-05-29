@@ -5,12 +5,12 @@
   <type>opencl</type>
   <name>gfx902</name>
   <driver>3075.13 (PAL,HSAIL)</driver>
-  <time>62143</time>
+  <time>61165</time>
   <errors>false</errors>
  </device>
  <device>
   <type>native</type>
-  <time>1996800</time>
+  <time>1964544</time>
   <errors>false</errors>
  </device>
 </profile>
