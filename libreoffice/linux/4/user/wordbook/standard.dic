@@ -18,6 +18,7 @@ Ageofocc
 BOOTPROTO
 BROWNIE
 BTG
+BW
 BY
 Batch
 Bitmaps
@@ -32,6 +33,7 @@ CELPE
 CHALLENGE
 CLASSIC
 CMMI
+COBIT
 CPU
 Call
 Capability
@@ -46,6 +48,7 @@ DBA
 DBAs
 DDL
 DESC
+DGCA
 DMA
 DML
 DQL
@@ -59,6 +62,7 @@ E.ID
 EAP
 EJB
 EP
+ETL
 Ed
 Ed.ID
 Elaboration
@@ -87,6 +91,7 @@ IFPE
 INFLUENCES
 INFRA-ESTRUTURA
 ISBNs
+ITIL
 Inception
 Infra-estrutura
 InjSeverity
@@ -104,6 +109,7 @@ Knowledge
 Kotlin
 L.ID
 LEAQ
+LGPD
 LRU
 Language
 Lassy
@@ -113,6 +119,7 @@ Li.ID
 List
 Log
 Lory
+MER
 MMU
 MONGERAL
 MOP
@@ -145,6 +152,7 @@ Network
 New
 NoSQL
 Não-Spanned
+OLAP
 ORDER
 OTHER
 Objeto-Relacional
@@ -165,6 +173,8 @@ QR
 Qu
 Qualcomm
 Query
+RAID
+RLM
 RMI
 RPC
 RUP
@@ -186,6 +196,7 @@ Sayzen
 Schema
 Science
 Script
+Scrum
 Seatbelt
 SempreUpdate
 Server
@@ -264,6 +275,7 @@ cloud
 cluster
 clusters
 code
+constraint
 contra-escopo
 coupled
 csv
@@ -281,6 +293,7 @@ dirty
 disk
 display
 doc
+domain
 driver
 dvcat
 e.nome
@@ -295,12 +308,14 @@ feedbacks
 first-fit
 fk
 flag
+foreign
 frames
 framework
 from
 full
 gantt
 gateway
+generator
 group
 hist
 holes
@@ -314,6 +329,7 @@ join
 joins
 josianemarias@hotmail.com
 josianesantos@olympus.com
+key
 kick-off
 l.nome
 left
@@ -402,6 +418,7 @@ temaki
 template
 the
 tour
+trigger
 triggers
 true
 tuning
@@ -410,6 +427,7 @@ unavail
 vincentarelbundock.github.io
 weight
 where
+wifi
 worst-fit
 www.ee.usp.br
 www.pmcanvas.com.br
