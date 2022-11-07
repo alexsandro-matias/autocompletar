@@ -1,9 +1,0 @@
-DriverVersion: 9.17.10.4229
-DriverDate: 5-26-2015
-DeviceID: PCI\VEN_8086&DEV_0102&SUBSYS_D0001458&REV_09
-AdapterVendorID: 0x8086
-AdapterDeviceID: 0x0102
-AdapterSubsysID: 0xd0001458
-DeviceKey: System\CurrentControlSet\Control\Video\{BD22716A-4DBD-11EA-9097-902B34F4F0F8}\0000
-DeviceString: Intel(R) HD Graphics
-S (Microsoft Corporation - WDDM v1.1)
