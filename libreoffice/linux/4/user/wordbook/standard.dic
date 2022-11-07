@@ -15,8 +15,13 @@ Administration
 Administrators
 Ageofcc
 Ageofocc
+<<<<<<< HEAD
+=======
+BOOTPROTO
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 BROWNIE
 BTG
+BW
 BY
 Batch
 Bitmaps
@@ -31,6 +36,7 @@ CELPE
 CHALLENGE
 CLASSIC
 CMMI
+COBIT
 CPU
 Call
 Capability
@@ -45,18 +51,21 @@ DBA
 DBAs
 DDL
 DESC
+DGCA
 DMA
 DML
 DQL
 DVT
 Database
 Definition
+Django
 Dvacat
 Dvcat
 E.ID
 EAP
 EJB
 EP
+ETL
 Ed
 Ed.ID
 Elaboration
@@ -64,6 +73,7 @@ Eletric
 Eliliane
 Engineering
 Enterprise
+FARANI
 FATALITIES
 FIFO
 FROM
@@ -77,12 +87,14 @@ GlusterFS
 Hat
 Hawthorne
 Highway
+IBOV
 IDs
 IEEE
 IFPE
 INFLUENCES
 INFRA-ESTRUTURA
 ISBNs
+ITIL
 Inception
 Infra-estrutura
 InjSeverity
@@ -100,6 +112,7 @@ Knowledge
 Kotlin
 L.ID
 LEAQ
+LGPD
 LRU
 Language
 Lassy
@@ -109,8 +122,10 @@ Li.ID
 List
 Log
 Lory
+MER
 MMU
 MONGERAL
+MOP
 MacOSX
 Management
 Manipulation
@@ -125,6 +140,7 @@ Median
 Method
 Microsystems
 Milestone
+Mining
 MobiSolitaire
 Model
 MongoDB
@@ -139,6 +155,7 @@ Network
 New
 NoSQL
 Não-Spanned
+OLAP
 ORDER
 OTHER
 Objeto-Relacional
@@ -159,6 +176,8 @@ QR
 Qu
 Qualcomm
 Query
+RAID
+RLM
 RMI
 RPC
 RUP
@@ -168,6 +187,7 @@ Recently
 Redmi
 Remote
 Roman
+SCHIMIT
 SELECT
 SGBD
 SGBDR
@@ -179,6 +199,7 @@ Sayzen
 Schema
 Science
 Script
+Scrum
 Seatbelt
 SempreUpdate
 Server
@@ -196,6 +217,10 @@ TCC
 TCC's
 TED
 TPC-H
+<<<<<<< HEAD
+=======
+Tecorel
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 Teradata
 Thread
 Threads
@@ -236,35 +261,53 @@ avaliacao.idaluno
 avaliacao.idavaliacao
 avaliacao.nota
 avaliacao.unidade
+basket
 belted
 benchmark
 benchmarking
 best-fit
 beta-testing
+bond
+bonding
 breakpoint
 brownie
 buffer
 buffering
 bull
+by-label
 caseid
 challenges
 cloud
 cluster
 clusters
 code
+constraint
 contra-escopo
 coupled
 csv
 datawarehouse
 dead
 deadlocks
+default
 deploy
+<<<<<<< HEAD
+=======
+dev
+dhcp
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 diferen
 direira.coluna
 direita.coluna
 dirty
+<<<<<<< HEAD
 display
 doc
+=======
+disk
+display
+doc
+domain
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 driver
 dvcat
 e.nome
@@ -279,11 +322,14 @@ feedbacks
 first-fit
 fk
 flag
+foreign
 frames
 framework
 from
 full
 gantt
+gateway
+generator
 group
 hist
 holes
@@ -291,11 +337,13 @@ host
 hosts
 injSeverity
 inner
+iso
 joaosilva@olympus.com
 join
 joins
 josianemarias@hotmail.com
 josianesantos@olympus.com
+key
 kick-off
 l.nome
 left
@@ -304,12 +352,15 @@ linker
 livro.id
 loader
 loosely
+ls
 mariasjosiane@gmail.com
+market
 matheusneves@olympus.com
 max
 mean
 median
 mfc
+mode
 monoprogramados
 monoprogramáveis
 monoprogramável
@@ -325,6 +376,7 @@ não-spanned
 occRole
 of
 on
+opts
 outer
 outter
 overflow
@@ -380,6 +432,7 @@ temaki
 template
 the
 tour
+trigger
 triggers
 true
 tuning
@@ -388,6 +441,7 @@ unavail
 vincentarelbundock.github.io
 weight
 where
+wifi
 worst-fit
 www.ee.usp.br
 www.pmcanvas.com.br

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RenderMethod: vulkan
 Vendor: 0x1002
 Device: 0x15dd
@@ -6,3 +7,7 @@ Driver: 2.0.137
 DeviceType: integrated
 DeviceName: AMD Radeon(TM) Vega 8 Graphics
 Denylisted: no
+=======
+RenderMethod: raster
+Compiler: Clang
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
