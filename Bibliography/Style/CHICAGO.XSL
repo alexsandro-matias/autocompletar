@@ -185,182 +185,6 @@
   </xsl:template>  
 
   
-  <xsl:template name="templ_prop_MLA_CitationLong_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationLong/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationLong_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationLong/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationLong_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationLong/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationLong_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationLong/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationShort_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationShort/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationShort_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationShort/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationShort_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationShort/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_CitationShort_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:CitationShort/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationLong_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationLong/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationLong_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationLong/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationLong_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationLong/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationLong_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationLong/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationShort_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationShort/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationShort_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationShort/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationShort_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationShort/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_CitationShort_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:CitationShort/b:FL"/>
-  </xsl:template>
-
-  
   <xsl:template name="templ_prop_Chicago_CitationLong_FML" >
     <xsl:param name="LCID" />
     <xsl:variable name="_LCID">
@@ -446,182 +270,6 @@
       </xsl:call-template>
     </xsl:variable>
     <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Chicago/b:CitationShort/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationLong_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationLong/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationLong_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationLong/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationLong_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationLong/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationLong_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationLong/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationShort_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationShort/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationShort_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationShort/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationShort_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationShort/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_CitationShort_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:CitationShort/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationLong_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationLong/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationLong_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationLong/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationLong_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationLong/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationLong_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationLong/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationShort_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationShort/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationShort_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationShort/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationShort_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationShort/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_CitationShort_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:CitationShort/b:FL"/>
   </xsl:template>
 
   
@@ -2208,336 +1856,6 @@
   </xsl:template>
 
   
-  <xsl:template name="templ_prop_MLA_SameAuthor" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:SameAuthor"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_MainAuthor_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:MainAuthor/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_MainAuthor_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:MainAuthor/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_MainAuthor_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:MainAuthor/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_MainAuthor_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:MainAuthor/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_OtherAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:OtherAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_OtherAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:OtherAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_OtherAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:OtherAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_OtherAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:OtherAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_SecondaryAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:SecondaryAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_SecondaryAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:SecondaryAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_SecondaryAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:SecondaryAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_SecondaryAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:SecondaryAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_Date_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:Date/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_Date_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:Date/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_Date_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:Date/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_MLA_Date_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:MLA/b:Date/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_MainAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:MainAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_MainAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:MainAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_MainAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:MainAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_MainAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:MainAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_BeforeLastAuthor" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:BeforeLastAuthor"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_GeneralOpen" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:GeneralOpen"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_GeneralClose" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:GeneralClose"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryOpen" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryOpen"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_SecondaryClose" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:SecondaryClose"/>
-  </xsl:template>
-
-  
   <xsl:template name="templ_prop_Hyphens" >
     <xsl:param name="LCID" />
     <xsl:variable name="_LCID">
@@ -2546,50 +1864,6 @@
       </xsl:call-template>
     </xsl:variable>
     <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:General/b:Hyphens"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_Date_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:Date/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_Date_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:Date/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_Date_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:Date/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_Date_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:Date/b:DY"/>
   </xsl:template>
 
   
@@ -2634,50 +1908,6 @@
       </xsl:call-template>
     </xsl:variable>
     <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:DateAccessed/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_DateCourt_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:DateCourt/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_DateCourt_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:DateCourt/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_DateCourt_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:DateCourt/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_APA_DateCourt_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:APA/b:DateCourt/b:DY"/>
   </xsl:template>
 
   
@@ -2867,555 +2097,6 @@
     <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Chicago/b:Date/b:DY"/>
   </xsl:template>
 
-  
-  <xsl:template name="templ_prop_ISO690_MainAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:MainAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_MainAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:MainAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_MainAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:MainAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_MainAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:MainAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_SecondaryAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:SecondaryAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_SecondaryAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:SecondaryAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_SecondaryAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:SecondaryAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_SecondaryAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:SecondaryAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_SameAuthor" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:SameAuthor"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_GeneralOpen" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:GeneralOpen"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_GeneralClose" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:GeneralClose"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_Date_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:Date/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_Date_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:Date/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_Date_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:Date/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_Date_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:Date/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_DateAccessed_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:DateAccessed/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_DateAccessed_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:DateAccessed/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_DateAccessed_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:DateAccessed/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_ISO690_DateAccessed_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:ISO690/b:DateAccessed/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Authors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Authors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Authors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Authors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Authors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Authors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Authors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Authors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Date_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Date/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Date_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Date/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Date_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Date/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_Date_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:Date/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_GeneralOpen" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:GeneralOpen"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_GeneralClose" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:GeneralClose"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_OneSlash" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:OneSlash"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_Gost_TwoSlash" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Gost/b:TwoSlash"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_MainAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:MainAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_MainAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:MainAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_MainAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:MainAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_MainAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:MainAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_SecondaryAuthors_FML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:SecondaryAuthors/b:FML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_SecondaryAuthors_FM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:SecondaryAuthors/b:FM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_SecondaryAuthors_ML" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:SecondaryAuthors/b:ML"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_SecondaryAuthors_FL" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:SecondaryAuthors/b:FL"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_SameAuthor" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:SameAuthor"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_GeneralOpen" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:GeneralOpen"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_GeneralClose" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:GeneralClose"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_Date_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:Date/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_Date_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:Date/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_Date_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:Date/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_Date_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:Date/b:DY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_DateAccessed_DMY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:DateAccessed/b:DMY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_DateAccessed_DM" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:DateAccessed/b:DM"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_DateAccessed_MY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:DateAccessed/b:MY"/>
-  </xsl:template>
-
-  
-  <xsl:template name="templ_prop_SIST_DateAccessed_DY" >
-    <xsl:param name="LCID" />
-    <xsl:variable name="_LCID">
-      <xsl:call-template name="localLCID">
-        <xsl:with-param name="LCID" select="$LCID"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:SIST/b:DateAccessed/b:DY"/>
-  </xsl:template>
 
   <xsl:template name="templ_prop_NoCommaBeforeAnd" >
     <xsl:param name="LCID" />
@@ -3432,12 +2113,12 @@
 
 		<xsl:choose>
 			<xsl:when test="b:Version">
-				<xsl:text>2006.5.07</xsl:text>
+				<xsl:text>2012.10.26</xsl:text>
 			</xsl:when>
 
 
 			<xsl:when test="b:XslVersion">
-				<xsl:text>15</xsl:text>
+				<xsl:text>16</xsl:text>
 			</xsl:when>
 
       <xsl:when test="b:StyleNameLocalized">
@@ -3749,7 +2430,7 @@
 					</xsl:choose>
 				</b:ImportantFields>
 			</xsl:when>
-			
+
 			<xsl:when test="b:Citation">
 
 				<xsl:variable name="ListPopulatedWithMain">
@@ -3758,24 +2439,22 @@
 						</xsl:call-template>
 				</xsl:variable>
 
-			
-			
 				<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
 					<head>
 					</head>
 					<body>
-			            <xsl:variable name="LCID">
-			              <xsl:choose>
-			                <xsl:when test="b:LCID='0' or b:LCID='' or not(b:LCID)">
-			                  <xsl:value-of select="/*/b:Locals/b:DefaultLCID"/>
-			                </xsl:when>
-			                <xsl:otherwise>
-			                  <xsl:value-of select="b:LCID"/>
-			                </xsl:otherwise>
-			              </xsl:choose>
-			            </xsl:variable>
+						<xsl:variable name="LCID">
+							<xsl:choose>
+								<xsl:when test="b:LCID='0' or b:LCID='' or not(b:LCID)">
+									<xsl:value-of select="/*/b:Locals/b:DefaultLCID"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="b:LCID"/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:variable>
 
-			            <xsl:element name="p">
+						<xsl:element name="p">
 
 						<xsl:attribute name="lang">
 							<xsl:value-of select="/*/b:Locals/b:Local[@LCID=$LCID]/@Culture"/>
@@ -3810,11 +2489,11 @@
 									<xsl:call-template name="templ_str_NoDateShortUnCap"/>
 								</xsl:otherwise>
 							</xsl:choose>
-						</xsl:variable>						
+						</xsl:variable>
 
 						<xsl:variable name="yearSimple">
 							<xsl:value-of select="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:Source/b:Year" />
-						</xsl:variable>						
+						</xsl:variable>
 
 						<xsl:variable name="authorMain">
 							<xsl:copy-of select="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:Source/b:Author/b:Main"/>
@@ -3825,9 +2504,9 @@
 								<xsl:when test = "msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:MinAuthors > 1">
 									<xsl:value-of select="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:MinAuthors" />
 								</xsl:when>
-								<xsl:otherwise>			
+								<xsl:otherwise>
 									<xsl:text>1</xsl:text>
-								</xsl:otherwise>			
+								</xsl:otherwise>
 							</xsl:choose>
 						</xsl:variable>
 						
@@ -3841,7 +2520,6 @@
 										<xsl:value-of select="count(msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:Source/b:Author/b:Main/b:NameList/b:Person)" />
 									</xsl:variable>
 									<xsl:for-each select="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:Source/b:Author/b:Main/b:NameList/b:Person">
-										
 										<xsl:choose>
 											<xsl:when test="$cAuthors > 3 and position() > $minAuthors">
 											</xsl:when>
@@ -3893,40 +2571,40 @@
 												</xsl:call-template>
 											</xsl:otherwise>
 										</xsl:choose>
-										
+
 										<xsl:choose>
 											<xsl:when test = "$cAuthors > 3 and position() = $minAuthors">
-                        <xsl:variable name="noCommaBeforeAnd">
-                          <xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
-                        </xsl:variable>
-                        <xsl:choose>
-                          <xsl:when test="$noCommaBeforeAnd != 'yes'">
-                            <xsl:call-template name="templ_prop_ListSeparator"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <xsl:call-template name="templ_prop_Space"/>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:call-template name="templ_str_AndOthersUnCap"/>
+												<xsl:variable name="noCommaBeforeAnd">
+													<xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
+												</xsl:variable>
+												<xsl:choose>
+													<xsl:when test="$noCommaBeforeAnd != 'yes'">
+														<xsl:call-template name="templ_prop_ListSeparator"/>
+													</xsl:when>
+													<xsl:otherwise>
+														<xsl:call-template name="templ_prop_Space"/>
+													</xsl:otherwise>
+												</xsl:choose>
+												<xsl:call-template name="templ_str_AndOthersUnCap"/>
 											</xsl:when>
 											<xsl:when test = "$cAuthors > 3 and position() > $minAuthors">
 											</xsl:when>
 											<xsl:when test="($cAuthors - 1 = position() and ($cAuthors = 2 or $cAuthors = 3)) or ($cAuthors > 3 and position() = 2)">
 												<xsl:variable name="noAndBeforeLastAuthor">
-											        <xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
+													<xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
 												</xsl:variable>
 
-										        <xsl:if test="$noAndBeforeLastAuthor != 'yes'">
+												<xsl:if test="$noAndBeforeLastAuthor != 'yes'">
 													<xsl:call-template name="templ_prop_Space"/>
-											        <xsl:call-template name="templ_str_AndUnCap"/>
-											        <xsl:call-template name="templ_prop_Space"/>
-											    </xsl:if>
-										        <xsl:if test="$noAndBeforeLastAuthor = 'yes'">
-											        <xsl:call-template name="templ_prop_AuthorsSeparator"/>
-										        </xsl:if>
+													<xsl:call-template name="templ_str_AndUnCap"/>
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+												<xsl:if test="$noAndBeforeLastAuthor = 'yes'">
+													<xsl:call-template name="templ_prop_AuthorsSeparator"/>
+												</xsl:if>
 											</xsl:when>
 											<xsl:when test="$cAuthors > position() and 3 > position() ">
-										        <xsl:call-template name="templ_prop_AuthorsSeparator"/>
+												<xsl:call-template name="templ_prop_AuthorsSeparator"/>
 											</xsl:when>
 										</xsl:choose>
 		
@@ -3939,7 +2617,7 @@
 							<xsl:choose>
 								<xsl:when test="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:NoTitle">
 								</xsl:when>
-								
+
 								<xsl:otherwise>
 									<xsl:value-of select="$title0" />
 								</xsl:otherwise>
@@ -3950,12 +2628,12 @@
 							<xsl:choose>
 								<xsl:when test="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:NoYear">
 								</xsl:when>
-								
+
 								<xsl:otherwise>
 									<xsl:value-of select="$year0" />
 								</xsl:otherwise>
 							</xsl:choose>
-						</xsl:variable>						
+						</xsl:variable>
 
 						<xsl:variable name="author">
 							<xsl:choose>
@@ -3967,9 +2645,9 @@
 							</xsl:choose>
 						</xsl:variable>
 
-					    <xsl:variable name="prop_APA_Hyphens">
-					      <xsl:call-template name="templ_prop_Hyphens"/>
-					    </xsl:variable>
+						<xsl:variable name="prop_APA_Hyphens">
+							<xsl:call-template name="templ_prop_Hyphens"/>
+						</xsl:variable>
 
 						<xsl:variable name="volume" select="msxsl:node-set($ListPopulatedWithMain)/b:Citation/b:Volume"/>
 
@@ -4085,10 +2763,9 @@
 					</body>
 				</html>
 			</xsl:when>
+
 			<xsl:when test="b:Bibliography">
 
-
-			
 				<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
 					<head>
 						
@@ -4098,23 +2775,17 @@
 					</head>
 					<body>
 
-					
-					
 						<xsl:variable name="ListPopulatedWithMain">
 								<xsl:call-template name="populateMain">
 									<xsl:with-param name="Type">b:Bibliography</xsl:with-param>
 								</xsl:call-template>
 						</xsl:variable>
-						
-								
-								
+
 						<xsl:variable name="sList">
 							<xsl:call-template name="sortedList">
 								<xsl:with-param name="sourceRoot"><xsl:copy-of select="$ListPopulatedWithMain"/></xsl:with-param>
 							</xsl:call-template>
 						</xsl:variable>
-
-
 
 						<xsl:variable name="dups">
 							<xsl:for-each select="msxsl:node-set($sList)/b:Bibliography/b:Source">
@@ -4123,7 +2794,7 @@
 								</b:author>
 							</xsl:for-each>
 						</xsl:variable>
-						
+
 						<xsl:for-each select="msxsl:node-set($sList)/b:Bibliography/b:Source">
 
 							<xsl:variable name="LCID">
@@ -4332,47 +3003,44 @@
 									</xsl:call-template>
 								</xsl:variable>
 
-
-
-
-								<xsl:variable name="date">
-									<xsl:call-template name="formatDate"/>
+								<xsl:variable name="monthDay">
+									<xsl:call-template name="getMonthDay"/>
 								</xsl:variable>
 
-								<xsl:variable name="dateDot">
+								<xsl:variable name="monthDayDot">
 									<xsl:call-template name="appendField_Dot">
-										<xsl:with-param name="field" select="$date"/>
+										<xsl:with-param name="field" select="$monthDay"/>
 									</xsl:call-template>
 								</xsl:variable>
 
-								<xsl:variable name="dateAccessed">
-									<xsl:call-template name="formatDateAccessed"/>
+								<xsl:variable name="year">
+									<xsl:call-template name="getYear"/>
 								</xsl:variable>
 
-								<xsl:variable name="dateAccessedDot">
+								<xsl:variable name="yearDot">
 									<xsl:call-template name="appendField_Dot">
-										<xsl:with-param name="field" select="$dateAccessed"/>
+										<xsl:with-param name="field" select="$year"/>
 									</xsl:call-template>
 								</xsl:variable>
 
-								<xsl:variable name="tempCPY">
-									<xsl:call-template name="templateCPY"/>
+								<xsl:variable name="tempCSPP">
+									<xsl:call-template name="templateCSPP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempRICPY">
-									<xsl:call-template name="templateRICPY"/>
+								<xsl:variable name="tempRICP">
+									<xsl:call-template name="templateRICP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempCPDMY">
-									<xsl:call-template name="templateCPDMY"/>
+								<xsl:variable name="tempCPMDP">
+									<xsl:call-template name="templateCPMDP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempDEP">
-									<xsl:call-template name="templateDEP"/>
+								<xsl:variable name="tempMDEP">
+									<xsl:call-template name="templateMDEP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempRYM">
-									<xsl:call-template name="templateRYM"/>
+								<xsl:variable name="tempRM">
+									<xsl:call-template name="templateRM"/>
 								</xsl:variable>
 
 								<xsl:variable name="tempTC">
@@ -4383,12 +3051,8 @@
 									<xsl:call-template name="templateIC"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempDY">
-									<xsl:call-template name="templateDY"/>
-								</xsl:variable>
-
-								<xsl:variable name="tempCPD">
-									<xsl:call-template name="templateCPD"/>
+								<xsl:variable name="tempCPMD">
+									<xsl:call-template name="templateCPMD"/>
 								</xsl:variable>
 
 								<xsl:variable name="tempSC">
@@ -4399,29 +3063,17 @@
 									<xsl:call-template name="templateCP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempCCD">
-									<xsl:call-template name="templateCCD"/>
+								<xsl:variable name="tempCCMD">
+									<xsl:call-template name="templateCCMD"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempVIYP">
-									<xsl:call-template name="templateVIYP"/>
+								<xsl:variable name="tempPVIP">
+									<xsl:call-template name="templatePVIP"/>
 								</xsl:variable>
 
-								<xsl:variable name="tempDaU">
-									<xsl:variable name="temporaryDaU">
-										<xsl:call-template name="templateDACURL"/>
-									</xsl:variable>
-
-									<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
-										<xsl:with-param name="field" select="$temporaryDaU"/>
-									</xsl:call-template>		
+								<xsl:variable name="tempDAUD">
+									<xsl:call-template name="templateDAUD"/>
 								</xsl:variable>
-
-
-
-
-
-
 
 								<xsl:variable name="titleDot">
 									<xsl:call-template name="appendField_Dot">
@@ -4504,25 +3156,25 @@
 										<xsl:with-param name="field" select="b:Institution"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="courtDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="b:Court"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="thesisTypeDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="b:ThesisType"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="journalNameDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="b:JournalName"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="journalName">
 									<xsl:call-template name="handleSpaces">
 										<xsl:with-param name="field" select="b:JournalName"/>
@@ -4534,16 +3186,22 @@
 										<xsl:with-param name="field" select="b:InternetSiteTitle"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="mediumDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="b:Medium"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
+
 								<xsl:variable name="issueDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="b:Issue"/>
+									</xsl:call-template>
+								</xsl:variable>
+
+								<xsl:variable name="distributorDot">
+									<xsl:call-template name="appendField_Dot">
+										<xsl:with-param name="field" select="b:Distributor"/>
 									</xsl:call-template>
 								</xsl:variable>
 
@@ -4573,22 +3231,22 @@
 								</xsl:variable>
 
 								<xsl:variable name="noIssueDot">
-								  <xsl:if test="string-length(b:Issue) > 0">
-									<xsl:call-template name="appendField_Dot">
-										<xsl:with-param name="field">
-											<xsl:call-template name="StringFormat">
-								  				<xsl:with-param name="format" select="$str_NumberShortUnCap"/>
-								  				<xsl:with-param name="parameters">
-								  					<t:params>
-								  						<t:param>
-															<xsl:value-of select="b:Issue"/>
-														</t:param>
-								  					</t:params>
-								  				</xsl:with-param>
-											</xsl:call-template>
-										</xsl:with-param>								
-									</xsl:call-template>
-								  </xsl:if>
+									<xsl:if test="string-length(b:Issue) > 0">
+										<xsl:call-template name="appendField_Dot">
+											<xsl:with-param name="field">
+												<xsl:call-template name="StringFormat">
+													<xsl:with-param name="format" select="$str_NumberShortUnCap"/>
+													<xsl:with-param name="parameters">
+														<t:params>
+															<t:param>
+																<xsl:value-of select="b:Issue"/>
+															</t:param>
+														</t:params>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:with-param>
+										</xsl:call-template>
+									</xsl:if>
 								</xsl:variable>
 								
 								<xsl:variable name="productionCompanyDot">
@@ -4656,9 +3314,6 @@
 										<xsl:with-param name="field" select="b:Volume"/>
 									</xsl:call-template>
 								</xsl:variable>
-								
-								
-
 
 								<xsl:variable name="prefixVersionDot">
 									<xsl:if test="string-length($versionDot)>0">
@@ -4800,11 +3455,10 @@
 										</xsl:if>
 									</xsl:if>
 								</xsl:variable>
-						
-						    <xsl:variable name="prop_APA_Hyphens">
-						      <xsl:call-template name="templ_prop_Hyphens"/>
-						    </xsl:variable>
 
+								<xsl:variable name="prop_APA_Hyphens">
+									<xsl:call-template name="templ_prop_Hyphens"/>
+								</xsl:variable>
 
 								<xsl:variable name="prefixVolume">
 									<xsl:if test="string-length($volume)>0">
@@ -5068,7 +3722,6 @@
 									</xsl:call-template>
 								</xsl:variable>
 
-
 								<xsl:variable name="writerDot">
 									<xsl:call-template name="appendField_Dot">
 										<xsl:with-param name="field" select="$writer"/>
@@ -5080,7 +3733,6 @@
 										<xsl:with-param name="field" select="$composerLF"/>
 									</xsl:call-template>
 								</xsl:variable>
-
 
 								<xsl:variable name="theAuthorSufix">
 									<xsl:choose>
@@ -5461,279 +4113,1044 @@
 
 
 
-
-								<xsl:choose>
-									<xsl:when test="b:SourceType='Book'">
-									
-										<xsl:if test="string-length($theAuthorSufixDot)>0">
-											<xsl:value-of select="$theAuthorSufixDot"/>
-										</xsl:if>
-										
-										<xsl:if test="string-length($titleDot)>0">
+								<xsl:variable name="source">
+									<xsl:choose>
+										<xsl:when test="b:SourceType='Book'">
 											<xsl:if test="string-length($theAuthorSufixDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
+												<xsl:value-of select="$theAuthorSufixDot"/>
 											</xsl:if>
 
-									        <xsl:call-template name = "ApplyItalicTitleNS">
-									         <xsl:with-param name = "data">
-											<xsl:value-of select="$titleDot"/>
-										     </xsl:with-param>
-										    </xsl:call-template>
-										</xsl:if>
-										
-										<xsl:if test="string-length($editionDot)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$editionDot"/>
-										</xsl:if>
-
-										<xsl:if test="string-length($theCapLongPrefixEditorDot)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($editionDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$theCapLongPrefixEditorDot"/>
-										</xsl:if>
-									
-										<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($editionDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
-										</xsl:if>
-									
-										<xsl:if test="string-length($theCapShortPrefixVolumeDot)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($editionDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$theCapShortPrefixVolumeDot"/>
-										</xsl:if>
-
-										<xsl:if test="string-length($numberVolumesDot)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapShortPrefixVolumeDot)>0 or string-length($editionDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$numberVolumesDot"/>
-										</xsl:if>
-
-										<xsl:if test="string-length($tempCPY)>0">
-											<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapShortPrefixVolumeDot)>0 or string-length($editionDot)>0 or string-length($numberVolumesDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$tempCPY"/>
-										</xsl:if>
-									
-									</xsl:when>
-
-
-									<xsl:when test="b:SourceType='ConferenceProceedings'">
-									
-										<xsl:if test="string-length($theCPAuthorSufixDot)>0">
-											<xsl:value-of select="$theCPAuthorSufixDot"/>
-										</xsl:if>
-										
-										<xsl:if test="string-length($titleDot)>0">
-											<xsl:if test="string-length($theCPAuthorSufixDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:call-template name="templ_prop_OpenQuote"/>
-											<xsl:value-of select="$titleDot"/>
-											<xsl:call-template name="templ_prop_CloseQuote"/>
-										</xsl:if>
-										
-										<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
-											<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($titleDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
-										</xsl:if>
-									
-									
-										<xsl:if test="string-length($conferenceNameDot)>0">
-											<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-									        <xsl:call-template name = "ApplyItalicTitleNS">
-									         <xsl:with-param name = "data">
-											<xsl:value-of select="$conferenceNameDot"/>
-										     </xsl:with-param>
-										    </xsl:call-template>
-										</xsl:if>
-
-										<xsl:if test="string-length($tempCPY)>0">
-											<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($conferenceNameDot)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$tempCPY"/>
-										</xsl:if>
-									
-										<xsl:if test="string-length($pagesDot)>0">
-											<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($conferenceNameDot)>0 or string-length($tempCPY)>0">
-												<xsl:call-template name="templ_prop_Space"/>
-											</xsl:if>
-
-											<xsl:value-of select="$pagesDot"/>
-										</xsl:if>
-
-									</xsl:when>
-
-
-
-									
-									<xsl:when test="b:SourceType='BookSection'">
-												<xsl:if test="string-length($sectionAuthorDot)>0">
-													<xsl:value-of select="$sectionAuthorDot"/>
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-												<xsl:choose>
-													<xsl:when test = "string-length($volume)>0">
-														<xsl:if test="string-length($titleDot)>0">
-															<xsl:if test="string-length($sectionAuthorDot)>0">
-																<xsl:call-template name="templ_prop_Space"/>
-															</xsl:if>
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
 
-													        <xsl:call-template name = "ApplyItalicTitleNS">
-													         <xsl:with-param name = "data">
-																<xsl:value-of select="$titleDot"/>
-														     </xsl:with-param>
-														    </xsl:call-template>
-															<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0">
-																<xsl:call-template name="templ_prop_Space"/>
-															</xsl:if>
-														</xsl:if>
-													</xsl:when>
-													
-													<xsl:otherwise>
-														<xsl:if test="string-length($titleDot)>0">
-															<xsl:if test="string-length($sectionAuthorDot)>0">
-																<xsl:call-template name="templ_prop_Space"/>
-															</xsl:if>
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
 
-															<xsl:call-template name="templ_prop_OpenQuote"/>
-															
-															<xsl:value-of select="$titleDot"/>
-															
-															<xsl:call-template name="templ_prop_CloseQuote"/>
-														</xsl:if>
-														<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0">
-															<xsl:call-template name="templ_prop_Space"/>
-														</xsl:if>
-														
-													</xsl:otherwise>
-												</xsl:choose>
-
-
-
-
-												<xsl:call-template name='PrintSpaceAndList'>
-													<xsl:with-param name="list">
-														<Items>
-															<CopyItem>
-
-																<xsl:choose>
-																	<xsl:when test = "string-length($volume)>0">
-																		<xsl:if test="string-length($i_volumeBookTitleDot)>0">
-																			<xsl:copy-of select="$i_volumeBookTitle"/>
-																		</xsl:if>
-																	</xsl:when>
-																	
-																	<xsl:otherwise>
-																		<xsl:call-template name="StringFormat">
-																			<xsl:with-param name="format">
-																				<xsl:choose>
-																					<xsl:when test = "string-length(b:BookTitle) > 0 and string-length(b:ChapterNumber) > 0">
-														                        		<xsl:call-template name="templ_str_ChapterInCap"/>
-																					</xsl:when>
-																					<xsl:when test = "string-length(b:BookTitle)">
-														                        		<xsl:call-template name="templ_str_InNameCap"/>
-																					</xsl:when>
-																					<xsl:when test = "string-length(b:ChapterNumber) > 0">
-														                        		<xsl:call-template name="templ_str_ChapterCap"/>
-																					</xsl:when>
-																				</xsl:choose>
-																			</xsl:with-param>
-
-																			<xsl:with-param name="parameters">
-																				<t:params>
-																					<xsl:if test = "string-length(b:ChapterNumber) > 0">
-																						<t:param>
-																							<xsl:value-of select="b:ChapterNumber"/>
-																						</t:param>
-																					</xsl:if>																						
-																					<xsl:if test = "string-length(b:BookTitle)">
-																						<t:param>
-																					        <xsl:call-template name = "ApplyItalicTitleNS">
-																					         <xsl:with-param name = "data">
-																								<xsl:value-of select="b:BookTitle"/>
-																						     </xsl:with-param>
-																						    </xsl:call-template>
-																						</t:param>
-																					</xsl:if>
-																				</t:params>
-																			</xsl:with-param>
-																		</xsl:call-template>
-																	</xsl:otherwise>
-																</xsl:choose>
-															</CopyItem>
-															<TextItem>
-																<xsl:choose>
-																	<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0">
-																		<xsl:value-of select="$theCapLongByAuthor"/>
-																	</xsl:when>
-																	<xsl:otherwise>
-																		<xsl:value-of select="$theUnCapLongByAuthor"/>
-																	</xsl:otherwise>
-																</xsl:choose>
-															</TextItem>
-															<TextItem>
-																<xsl:choose>
-																	<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0 and string-length($theCapLongByAuthor)=0">
-																		<xsl:value-of select="$theCapLongPrefixEditedBy"/>
-																	</xsl:when>
-																	<xsl:otherwise>
-																		<xsl:value-of select="$theUnCapLongPrefixEditedBy"/>
-																	</xsl:otherwise>
-																</xsl:choose>
-															</TextItem>
-															<TextItem>
-																<xsl:choose>
-																	<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0 and string-length($theCapLongByAuthor)=0 and string-length($theCapLongPrefixEditedBy)=0">
-																		<xsl:value-of select="$theUnCapLongPrefixTranslatedBy"/>
-																	</xsl:when>
-																	<xsl:otherwise>
-																		<xsl:value-of select="$theUnCapLongPrefixTranslatedBy"/>
-																	</xsl:otherwise>
-																</xsl:choose>
-															</TextItem>
-															<TextItem>
-																<xsl:value-of select="b:Pages"/>
-															</TextItem>
-														</Items>
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$titleDot"/>
 													</xsl:with-param>
 												</xsl:call-template>
+											</xsl:if>
 
-												<xsl:if test="string-length($tempCPY)>0">
-													<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0 or string-length($bookTitleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0 or string-length($volume)>0">
+											<xsl:if test="string-length($editionDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$editionDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($editionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($editionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapShortPrefixVolumeDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($editionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapShortPrefixVolumeDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($numberVolumesDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapShortPrefixVolumeDot)>0 or string-length($editionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$numberVolumesDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempCSPP)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapShortPrefixVolumeDot)>0 or string-length($editionDot)>0 or string-length($numberVolumesDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempCSPP"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='ConferenceProceedings'">
+											<xsl:if test="string-length($theCPAuthorSufixDot)>0">
+												<xsl:value-of select="$theCPAuthorSufixDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($conferenceNameDot)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$conferenceNameDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempCSPP)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($conferenceNameDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempCSPP"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($pagesDot)>0">
+												<xsl:if test="string-length($theCPAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($conferenceNameDot)>0 or string-length($tempCSPP)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$pagesDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='BookSection'">
+											<xsl:if test="string-length($sectionAuthorDot)>0">
+												<xsl:value-of select="$sectionAuthorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($sectionAuthorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:choose>
+												<xsl:when test = "string-length($volume)>0">
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+
+														<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:otherwise>
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+													<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0">
 														<xsl:call-template name="templ_prop_Space"/>
 													</xsl:if>
+												</xsl:otherwise>
+											</xsl:choose>
 
-													<xsl:value-of select="$tempCPY"/>
+											<xsl:call-template name='PrintSpaceAndList'>
+												<xsl:with-param name="list">
+													<Items>
+														<CopyItem>
+															<xsl:choose>
+																<xsl:when test = "string-length($volume)>0">
+																	<xsl:if test="string-length($i_volumeBookTitleDot)>0">
+																		<xsl:copy-of select="$i_volumeBookTitle"/>
+																	</xsl:if>
+																</xsl:when>
+
+																<xsl:otherwise>
+																	<xsl:call-template name="StringFormat">
+																		<xsl:with-param name="format">
+																			<xsl:choose>
+																				<xsl:when test = "string-length(b:BookTitle) > 0 and string-length(b:ChapterNumber) > 0">
+																					<xsl:call-template name="templ_str_ChapterInCap"/>
+																				</xsl:when>
+																				<xsl:when test = "string-length(b:BookTitle)">
+																					<xsl:call-template name="templ_str_InNameCap"/>
+																				</xsl:when>
+																				<xsl:when test = "string-length(b:ChapterNumber) > 0">
+																					<xsl:call-template name="templ_str_ChapterCap"/>
+																				</xsl:when>
+																			</xsl:choose>
+																		</xsl:with-param>
+
+																		<xsl:with-param name="parameters">
+																			<t:params>
+																				<xsl:if test = "string-length(b:ChapterNumber) > 0">
+																					<t:param>
+																						<xsl:value-of select="b:ChapterNumber"/>
+																					</t:param>
+																				</xsl:if>
+
+																				<xsl:if test = "string-length(b:BookTitle)">
+																					<t:param>
+																						<xsl:call-template name = "ApplyItalicTitleNS">
+																							<xsl:with-param name = "data">
+																								<xsl:value-of select="b:BookTitle"/>
+																							</xsl:with-param>
+																						</xsl:call-template>
+																					</t:param>
+																				</xsl:if>
+																			</t:params>
+																		</xsl:with-param>
+																	</xsl:call-template>
+																</xsl:otherwise>
+															</xsl:choose>
+														</CopyItem>
+
+														<TextItem>
+															<xsl:choose>
+																<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0">
+																	<xsl:value-of select="$theCapLongByAuthor"/>
+																</xsl:when>
+																<xsl:otherwise>
+																	<xsl:value-of select="$theUnCapLongByAuthor"/>
+																</xsl:otherwise>
+															</xsl:choose>
+														</TextItem>
+
+														<TextItem>
+															<xsl:choose>
+																<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0 and string-length($theCapLongByAuthor)=0">
+																	<xsl:value-of select="$theCapLongPrefixEditedBy"/>
+																</xsl:when>
+																<xsl:otherwise>
+																	<xsl:value-of select="$theUnCapLongPrefixEditedBy"/>
+																</xsl:otherwise>
+															</xsl:choose>
+														</TextItem>
+
+														<TextItem>
+															<xsl:choose>
+																<xsl:when test = "string-length(b:ChapterNumber)=0 and string-length($volume)=0 and string-length($bookTitleDot)=0 and string-length($theCapLongByAuthor)=0 and string-length($theCapLongPrefixEditedBy)=0">
+																	<xsl:value-of select="$theUnCapLongPrefixTranslatedBy"/>
+																</xsl:when>
+																<xsl:otherwise>
+																	<xsl:value-of select="$theUnCapLongPrefixTranslatedBy"/>
+																</xsl:otherwise>
+															</xsl:choose>
+														</TextItem>
+
+														<TextItem>
+															<xsl:value-of select="b:Pages"/>
+														</TextItem>
+													</Items>
+												</xsl:with-param>
+											</xsl:call-template>
+
+											<xsl:if test="string-length($tempCSPP)>0">
+												<xsl:if test="string-length($sectionAuthorDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($bookAuthorDot)>0 or string-length($bookTitleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0 or string-length($volume)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
-									</xsl:when>
-									
 
-									<xsl:when test="b:SourceType='JournalArticle'">
+												<xsl:value-of select="$tempCSPP"/>
+											</xsl:if>
+										</xsl:when>
 
+
+										<xsl:when test="b:SourceType='JournalArticle'">
+											<xsl:if test="string-length($authorDot)>0">
+												<xsl:value-of select="$authorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)>0">
+												<xsl:value-of select="$sufixEditorLFDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0 and string-length($authorDot)>0">
+												<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($journalName)>0">
+												<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:if test="string-length($tempPVIP)>0">
+															<xsl:value-of select="$journalName"/>
+														</xsl:if>
+														<xsl:if test="string-length($tempPVIP)=0">
+															<xsl:value-of select="$journalNameDot"/>
+														</xsl:if>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempPVIP)>0">
+												<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($journalName)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempPVIP"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Report'">
+											<xsl:choose>
+												<xsl:when test="string-length($publisher)>0">
+													<xsl:if test="string-length($authorDot)>0">
+														<xsl:value-of select="$authorDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($authorDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($authorDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempRICP)>0">
+														<xsl:if test="string-length($authorDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempRICP"/>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:otherwise>
+													<xsl:if test="string-length($authorDot)>0">
+														<xsl:value-of select="$authorDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($authorDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($authorDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempRICP)>0">
+														<xsl:if test="string-length($authorDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempRICP"/>
+													</xsl:if>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='SoundRecording'">
+											<xsl:choose>
+												<xsl:when test="string-length($performerLF)>0">
+													<xsl:value-of select="$performerLFDot"/>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($albumTitleDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$albumTitleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($prefixConductorDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$prefixConductorDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($prefixComposerDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$prefixComposerDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempRM)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$tempRM"/>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:when test="string-length($conductorLFDot)>0">
+													<xsl:value-of select="$conductorLFDot"/>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($albumTitleDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$albumTitleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($prefixComposerDot)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$prefixComposerDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempRM)>0">
+														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$tempRM"/>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:otherwise>
+													<xsl:if test="string-length($composerLFDot)>0">
+														<xsl:value-of select="$composerLFDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($composerLFDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
+														<xsl:if test="string-length($composerLFDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
+														<xsl:if test="string-length($composerLFDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+				
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($albumTitleDot)>0">
+														<xsl:if test="string-length($composerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$albumTitleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempRM)>0">
+														<xsl:if test="string-length($composerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($albumTitleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempRM"/>
+													</xsl:if>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Performance'">
+											<xsl:if test="string-length($writerLFDot)>0">
+												<xsl:value-of select="$writerLFDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($writerLFDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($writerLFDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$titleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixDirectedByDot)>0">
+												<xsl:if test="string-length($writerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixDirectedByDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixPerformedByDot)>0">
+												<xsl:if test="string-length($writerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixPerformedByDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempTC)>0">
+												<xsl:if test="string-length($writerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempTC"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($monthDayDot)>0">
+												<xsl:if test="string-length($writerLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0 or string-length($tempTC)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$monthDayDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Art'">
+											<xsl:choose>
+												<xsl:when test="string-length($publicationTitle)>0">
+													<xsl:if test="string-length($artistDot)>0">
+														<xsl:value-of select="normalize-space($artistDot)"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($artistDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name="templ_prop_OpenQuote"/>
+														<xsl:value-of select="$titleDot"/>
+														<xsl:call-template name="templ_prop_CloseQuote"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($institutionDot)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$institutionDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($publicationTitleDot)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($institutionDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$publicationTitleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempCSPP)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($institutionDot)>0 or string-length($publicationTitle)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempCSPP"/>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:otherwise>
+													<xsl:if test="string-length($artistDot)>0">
+														<xsl:value-of select="normalize-space($artistDot)"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($artistDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$yearDot"/>
+													</xsl:if>
+
+													<xsl:if test="string-length($titleDot)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$titleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($tempIC)>0">
+														<xsl:if test="string-length($artistDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempIC"/>
+													</xsl:if>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='DocumentFromInternetSite'">
+											<xsl:if test="string-length($theAuthorSufixDot)>0">
+												<xsl:value-of select="$theAuthorSufixDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixVersionDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+												<xsl:value-of select="$prefixVersionDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($internetSiteTitleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$internetSiteTitleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prodDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prodDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($monthDayDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($prodDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$monthDayDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='InternetSite'">
+											<xsl:if test="string-length($theAuthorSufixDot)>0">
+												<xsl:value-of select="$theAuthorSufixDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$titleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixVersionDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prefixVersionDot"/>
+											</xsl:if>
+
+
+											<xsl:if test="string-length($prodDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($versionDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prodDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($monthDayDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($versionDot)>0 or string-length($prodDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$monthDayDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Patent'">
+											<xsl:if test="string-length($inventorLFDot)>0">
+												<xsl:value-of select="$inventorLFDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($inventorLFDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($inventorLFDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$titleDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixEditorDot)>0">
+												<xsl:if test="string-length($inventorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixTranslatorDot)>0">
+												<xsl:if test="string-length($inventorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prefixTranslatorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempCP)>0">
+												<xsl:if test="string-length($inventorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempCP"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($monthDayDot)>0">
+												<xsl:if test="string-length($inventorLFDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0 or string-length($tempCP)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$monthDayDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Case'">
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$titleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($caseNoDot)>0">
+												<xsl:if test="string-length($titleDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$caseNoDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempCCMD)>0">
+												<xsl:if test="string-length($titleDot)>0 or string-length($yearDot)>0 or string-length($caseNoDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempCCMD"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Misc'">
+											<xsl:if test="string-length($theAuthorSufixDot)>0">
+												<xsl:value-of select="$theAuthorSufixDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($publicationTitleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$publicationTitleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixVolumeDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$prefixVolumeDot"/>
+											</xsl:if>
+
+
+											<xsl:if test="string-length($noIssueDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$noIssueDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixCompilerDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$theCapLongPrefixCompilerDot"/>
+											</xsl:if>
+
+
+											<xsl:if test="string-length($tempCPMD)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapLongPrefixCompilerDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$tempCPMD"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($pagesDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapLongPrefixCompilerDot)>0 or string-length($tempCPMD)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$pagesDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='ElectronicSource'">
+											<xsl:variable name="lfAuthor">
 												<xsl:if test="string-length($authorDot)>0">
 													<xsl:value-of select="$authorDot"/>
 												</xsl:if>
@@ -5742,1228 +5159,497 @@
 													<xsl:value-of select="$sufixEditorLFDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($authorDot)>0 or string-length($sufixEditorLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													
-													<xsl:value-of select="$titleDot"/>
-													
-													<xsl:call-template name="templ_prop_CloseQuote"/>
+												<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)=0 and string-length($sufixTranslatorLFDot)>0">
+													<xsl:value-of select="$sufixTranslatorLFDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0 and string-length($authorDot)>0">
-													<xsl:if test="string-length($authorDot)>0 or string-length($titleDot)>0 or string-length($sufixEditorLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+												<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)=0 and string-length($sufixTranslatorLFDot)=0 and string-length($sufixCompilerLFDot)>0">
+													<xsl:value-of select="$sufixCompilerLFDot"/>
 												</xsl:if>
+											</xsl:variable>
 
-												<xsl:if test="string-length($journalName)>0">
-													<xsl:if test="string-length($authorDot)>0 or string-length($titleDot)>0 or string-length($sufixEditorLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
+											<xsl:value-of select="$lfAuthor"/>
 
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:if test="string-length($tempVIYP)>0">
-														<xsl:value-of select="$journalName"/>
-													</xsl:if>
-													<xsl:if test="string-length($tempVIYP)=0">
-														<xsl:value-of select="$journalNameDot"/>
-													</xsl:if>
-    										       </xsl:with-param>
-    										      </xsl:call-template>
-												</xsl:if>
-											
-												<xsl:if test="string-length($tempVIYP)>0">
-													<xsl:if test="string-length($journalName)=0 and (string-length($authorDot)>0 or string-length($titleDot)>0 or string-length($journalName)>0 or string-length($sufixEditorLFDot)>0)">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempVIYP"/>
-												</xsl:if>
-												
-									</xsl:when>
-
-									<xsl:when test="b:SourceType='Report'">
-
-										<xsl:choose>
-										
-											<xsl:when test="string-length($publisher)>0">
-
-
-												<xsl:if test="string-length($authorDot)>0">
-													<xsl:value-of select="$authorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($authorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempRICPY)>0">
-													<xsl:if test="string-length($authorDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempRICPY"/>
-												</xsl:if>
-
-											</xsl:when>
-
-
-										
-											<xsl:otherwise>
-												<xsl:if test="string-length($authorDot)>0">
-													<xsl:value-of select="$authorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($authorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													
-													<xsl:value-of select="$titleDot"/>
-													
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-											
-												<xsl:if test="string-length($tempRICPY)>0">
-													<xsl:if test="string-length($authorDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempRICPY"/>
-												</xsl:if>
-
-											</xsl:otherwise>
-
-
-										</xsl:choose>
-									</xsl:when>
-									
-									
-
-									<xsl:when test="b:SourceType='SoundRecording'">
-
-
-
-										<xsl:choose>
-										
-											<xsl:when test="string-length($performerLF)>0">
-
-												<xsl:value-of select="$performerLFDot"/>
-
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0 and string-length($publicationTitleDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-			
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
 												</xsl:if>
 
-												<xsl:if test="string-length($albumTitleDot)>0">
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0 and string-length($publicationTitleDot)=0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$albumTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
 												</xsl:if>
+		
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$titleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
 
-												<xsl:if test="string-length($prefixConductorDot)>0">
+											<xsl:if test="string-length($publicationTitleDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:value-of select="$prefixConductorDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($prefixComposerDot)>0">
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$publicationTitleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($editionDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:value-of select="$prefixComposerDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($tempRYM)>0">
+												<xsl:value-of select="$editionDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixVolumeDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:value-of select="$tempRYM"/>
 												</xsl:if>
 
-											</xsl:when>
+												<xsl:value-of select="$prefixVolumeDot"/>
+											</xsl:if>
 
-										
-											<xsl:when test="string-length($conductorLFDot)>0">
-
-												<xsl:value-of select="$conductorLFDot"/>
-
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
+											<xsl:if test="string-length($mediumDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
+												<xsl:value-of select="$mediumDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($authorDot)>0 and string-length($theCPCapLongPrefixEditorDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-			
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
 												</xsl:if>
 
-												<xsl:if test="string-length($albumTitleDot)>0">
+												<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0 and (string-length($authorDot)>0 or (string-length($authorDot)=0 and  string-length($sufixEditorLFDot)>0 ))">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$albumTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
 												</xsl:if>
 
-												<xsl:if test="string-length($prefixComposerDot)>0">
+												<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixCompilerDot)>0 and (string-length($authorDot)>0 or (string-length($authorDot)=0 and  (string-length($sufixEditorLFDot)>0 or string-length($sufixTranslatorLFDot)>0)))">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:value-of select="$prefixComposerDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($tempRYM)>0">
+												<xsl:value-of select="$prefixCompilerDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($prefixProdDot)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-
-													<xsl:value-of select="$tempRYM"/>
 												</xsl:if>
 
-											</xsl:when>
+												<xsl:value-of select="$prefixProdDot"/>
+											</xsl:if>
 
-										
-											<xsl:otherwise>
-
-												<xsl:if test="string-length($composerLFDot)>0">
-													<xsl:value-of select="$composerLFDot"/>
+											<xsl:if test="string-length($tempCPMD)>0">
+												<xsl:if test="string-length($lfAuthor)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0 or string-length($prefixProdDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-											
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)>0">
-													<xsl:if test="string-length($composerLFDot)>0">
+												<xsl:value-of select="$tempCPMD"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='ArticleInAPeriodical'">
+											<xsl:if test="string-length($theAuthorSufixDot)>0">
+												<xsl:value-of select="$theAuthorSufixDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($periodicalTitle)>0 and string-length($theAuthorSufixDot) = 0">
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:value-of select="$periodicalTitleDot"/>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($yearDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($periodicalTitle)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($periodicalTitle)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
+												</xsl:if>
+
+												<xsl:call-template name="templ_prop_OpenQuote"/>
+												<xsl:value-of select="$titleDot"/>
+												<xsl:call-template name="templ_prop_CloseQuote"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($periodicalTitle)>0 and string-length($theAuthorSufixDot)>0">
+												<xsl:call-template name="templ_prop_Space"/>
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
+														<xsl:if test="string-length($tempMDEP)>0">
+															<xsl:value-of select="$periodicalTitle"/>
+														</xsl:if>
+														<xsl:if test="string-length($tempMDEP)=0">
+															<xsl:value-of select="$periodicalTitleDot"/>
+														</xsl:if>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($tempMDEP)>0">
+												<xsl:choose>
+													<xsl:when test="string-length($theAuthorSufixDot)>0 and string-length($periodicalTitle)>0">
+														<xsl:call-template name="templ_prop_ListSeparator"/>
+													</xsl:when>
+													<xsl:when test="((string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($yearDot)>0) and string-length($periodicalTitle)=0) or (string-length($theAuthorSufixDot)=0 and (string-length($titleDot)>0 or string-length($yearDot)>0))">
 														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
+													</xsl:when>
+												</xsl:choose>
 
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0 and string-length($albumTitleDot)=0">
-													<xsl:if test="string-length($composerLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-			
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($albumTitleDot)>0">
-													<xsl:if test="string-length($composerLFDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$albumTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
+												<xsl:value-of select="$tempMDEP"/>
+											</xsl:if>
+										</xsl:when>
 
 
-												<xsl:if test="string-length($tempRYM)>0">
-													<xsl:if test="string-length($composerLFDot)>0 or string-length($titleDot)>0 or string-length($albumTitleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
+										<xsl:when test="b:SourceType='Film'">
+											<xsl:if test="string-length($writerDot)>0">
+												<xsl:value-of select="$writerLFDot"/>
+											</xsl:if>
 
-													<xsl:value-of select="$tempRYM"/>
-												</xsl:if>
-
-											</xsl:otherwise>
-
-
-
-										</xsl:choose>
-									</xsl:when>
-
-
-									<xsl:when test="b:SourceType='Performance'">
-
+											<xsl:if test="string-length($yearDot)>0">
 												<xsl:if test="string-length($writerLFDot)>0">
 													<xsl:call-template name="templ_prop_Space"/>
-													<xsl:value-of select="$writerLFDot"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($writerLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
+												<xsl:value-of select="$yearDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($titleDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixDirectedByDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixDirectedByDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixPerformedByDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixPerformedByDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempTC)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempTC"/>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($dateDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0 or string-length($tempTC)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$dateDot"/>
-												</xsl:if>
-
-
-								</xsl:when>
-
-
-									<xsl:when test="b:SourceType='Art'">
-
-
-										<xsl:choose>
-											
-											<xsl:when test="string-length($publicationTitle)>0">
-
-												<xsl:if test="string-length($artistDot)>0">
-													<xsl:value-of select="normalize-space($artistDot)"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($artistDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($institutionDot)>0">
-													<xsl:if test="string-length($artistDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$institutionDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($publicationTitleDot)>0">
-													<xsl:if test="string-length($artistDot)>0 or string-length($titleDot)>0 or string-length($institutionDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$publicationTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempCPY)>0">
-													<xsl:if test="string-length($artistDot)>0 or string-length($titleDot)>0 or string-length($institutionDot)>0 or string-length($publicationTitle)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempCPY"/>
-												</xsl:if>
-
-											</xsl:when>
-											
-											
-											<xsl:otherwise>
-											
-												<xsl:if test="string-length($artistDot)>0">
-													<xsl:value-of select="normalize-space($artistDot)"/>
-												</xsl:if>
-
-												
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($artistDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempIC)>0">
-													<xsl:if test="string-length($artistDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempIC"/>
-												</xsl:if>
-
-											</xsl:otherwise>
-											
-										</xsl:choose>
-
-
-
-									</xsl:when>
-
-									<xsl:when test="b:SourceType='DocumentFromInternetSite'">
-
-
-	
-												<xsl:if test="string-length($theAuthorSufixDot)>0">
-													<xsl:value-of select="$theAuthorSufixDot"/>
-												</xsl:if>
-
-											
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixVersionDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-													<xsl:value-of select="$prefixVersionDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($internetSiteTitleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$internetSiteTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prodDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prodDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($dateDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($prodDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$dateDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempDaU)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($versionDot)>0 or string-length($internetSiteTitleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($prodDot)>0 or string-length($dateDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempDaU"/>
-												</xsl:if>
-
-									</xsl:when>
-
-
-							
-
-									<xsl:when test="b:SourceType='InternetSite'">
-
-												<xsl:if test="string-length($theAuthorSufixDot)>0">
-													<xsl:value-of select="$theAuthorSufixDot"/>
-												</xsl:if>
-
-											
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixVersionDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixVersionDot"/>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($prodDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($versionDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prodDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($dateDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($versionDot)>0 or string-length($prodDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$dateDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempDaU)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($versionDot)>0 or string-length($dateDot)>0 or string-length($prodDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempDaU"/>
-												</xsl:if>
-
-									</xsl:when>
-
-
-
-
-									<xsl:when test="b:SourceType='Patent'">
-
-
-
-												<xsl:if test="string-length($inventorLFDot)>0">
-													<xsl:value-of select="$inventorLFDot"/>
-												</xsl:if>
-
-											
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($inventorLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-													
-													<xsl:value-of select="$titleDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixEditorDot)>0">
-													<xsl:if test="string-length($inventorLFDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixEditorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixTranslatorDot)>0">
-													<xsl:if test="string-length($inventorLFDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixTranslatorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempCP)>0">
-													<xsl:if test="string-length($inventorLFDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempCP"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($dateDot)>0">
-													<xsl:if test="string-length($inventorLFDot)>0 or string-length($titleDot)>0 or string-length($prefixEditorDot)>0 or string-length($prefixTranslatorDot)>0 or string-length($tempCP)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$dateDot"/>
-												</xsl:if>
-
-									</xsl:when>
-
-
-
-									<xsl:when test="b:SourceType='Case'">
-
-
-												<xsl:if test="string-length($titleDot)>0">
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
+												<xsl:call-template name = "ApplyItalicTitleNS">
+													<xsl:with-param name = "data">
 														<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
+													</xsl:with-param>
+												</xsl:call-template>
+											</xsl:if>
+
+											<xsl:if test="string-length($mediumDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($caseNoDot)>0">
-													<xsl:if test="string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-	
-													<xsl:value-of select="$caseNoDot"/>
+												<xsl:value-of select="$mediumDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixDirectedByDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($mediumDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($tempCCD)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($caseNoDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-	
-													<xsl:value-of select="$tempCCD"/>
+												<xsl:value-of select="$theCapLongPrefixDirectedByDot"/>
+											</xsl:if>
+
+											<xsl:if test="string-length($theCapLongPrefixProducedByDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($mediumDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-									</xsl:when>
+												<xsl:value-of select="$theCapLongPrefixProducedByDot"/>
+											</xsl:if>
 
-
-
-									<xsl:when test="b:SourceType='Misc'">
-
-												<xsl:if test="string-length($theAuthorSufixDot)>0">
-													<xsl:value-of select="$theAuthorSufixDot"/>
+											<xsl:if test="string-length($theCapLongPrefixPerformedByDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixProducedByDot)>0 or string-length($mediumDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
+												<xsl:value-of select="$theCapLongPrefixPerformedByDot"/>
+											</xsl:if>
 
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
+											<xsl:if test="string-length($distributorDot)>0">
+												<xsl:if test="string-length($writerDot)>0 or string-length($yearDot)>0 or string-length($titleDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixProducedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0 or string-length($mediumDot)>0">
+													<xsl:call-template name="templ_prop_Space"/>
 												</xsl:if>
 
-												<xsl:if test="string-length($publicationTitleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
+												<xsl:value-of select="$distributorDot"/>
+											</xsl:if>
+										</xsl:when>
+
+
+										<xsl:when test="b:SourceType='Interview'">
+											<xsl:choose>
+												<xsl:when test="string-length($broadcaster)>0">
+													<xsl:if test="string-length($intervieweeLFDot)>0">
+														<xsl:if test="string-length($interviewerDot)=0">
+															<xsl:value-of select="$intervieweeLFDot"/>
+														</xsl:if>
+														<xsl:if test="string-length($interviewerDot)>0">
+															<xsl:value-of select="$intervieweeLF"/>
+														</xsl:if>
 													</xsl:if>
 
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$publicationTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixVolumeDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixVolumeDot"/>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($noIssueDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$noIssueDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCPCapLongPrefixEditorDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixCompilerDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixCompilerDot"/>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($tempCPD)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapLongPrefixCompilerDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempCPD"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($pagesDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($prefixVolumeDot)>0 or string-length($issueDot)>0 or string-length($theCPCapLongPrefixEditorDot)>0 or string-length($theCapLongPrefixTranslatorDot)>0 or string-length($theCapLongPrefixCompilerDot)>0 or string-length($tempCPD)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$pagesDot"/>
-												</xsl:if>
-
-
-									</xsl:when>
-
-
-
-
-									<xsl:when test="b:SourceType='ElectronicSource'">
-
-												<xsl:variable name="lfAuthor">
-													<xsl:if test="string-length($authorDot)>0">
-														<xsl:value-of select="$authorDot"/>
-													</xsl:if>
-
-
-													<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)>0">
-														<xsl:value-of select="$sufixEditorLFDot"/>
-													</xsl:if>
-
-													<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)=0 and string-length($sufixTranslatorLFDot)>0">
-														<xsl:value-of select="$sufixTranslatorLFDot"/>
-													</xsl:if>
-
-													<xsl:if test="string-length($authorDot)=0 and string-length($sufixEditorLFDot)=0 and string-length($sufixTranslatorLFDot)=0 and string-length($sufixCompilerLFDot)>0">
-														<xsl:value-of select="$sufixCompilerLFDot"/>
-													</xsl:if>
-												</xsl:variable>
-
-												<xsl:value-of select="$lfAuthor"/>
-												
-												<xsl:if test="string-length($titleDot)>0 and string-length($publicationTitleDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													<xsl:value-of select="$titleDot"/>
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0 and string-length($publicationTitleDot)=0">
-													<xsl:if test="string-length($lfAuthor)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-			
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($publicationTitleDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$publicationTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($editionDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$editionDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($prefixVolumeDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixVolumeDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($mediumDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$mediumDot"/>
-												</xsl:if>
-
-
-												<xsl:if test="string-length($authorDot)>0 and string-length($theCPCapLongPrefixEditorDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCPCapLongPrefixEditorDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixTranslatorDot)>0 and (string-length($authorDot)>0 or (string-length($authorDot)=0 and  string-length($sufixEditorLFDot)>0 ))">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixTranslatorDot"/>
-												</xsl:if>
-												
-												<xsl:if test="string-length($prefixCompilerDot)>0 and (string-length($authorDot)>0 or (string-length($authorDot)=0 and  (string-length($sufixEditorLFDot)>0 or string-length($sufixTranslatorLFDot)>0)))">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixCompilerDot"/>
-												</xsl:if>
-												
-												<xsl:if test="string-length($prefixProdDot)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$prefixProdDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempCPD)>0">
-													<xsl:if test="string-length($lfAuthor)>0 or string-length($titleDot)>0 or string-length($publicationTitleDot)>0 or string-length($editionDot)>0 or string-length($prefixVolumeDot)>0 or string-length($mediumDot)>0 or string-length($prefixProdDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempCPD"/>
-												</xsl:if>
-
-
-
-									</xsl:when>
-
-
-									<xsl:when test="b:SourceType='ArticleInAPeriodical'">
-
-
-												<xsl:if test="string-length($theAuthorSufixDot)>0">
-													<xsl:value-of select="$theAuthorSufixDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($periodicalTitle)>0 and string-length($theAuthorSufixDot) = 0">
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-														<xsl:value-of select="$periodicalTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-												
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($periodicalTitle)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:call-template name="templ_prop_OpenQuote"/>
-													
-													<xsl:value-of select="$titleDot"/>
-													
-													<xsl:call-template name="templ_prop_CloseQuote"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($periodicalTitle)>0 and string-length($theAuthorSufixDot)>0">
-													<xsl:if test="string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:if test="string-length($tempDEP)>0">
-														<xsl:value-of select="$periodicalTitle"/>
-													</xsl:if>
-													<xsl:if test="string-length($tempDEP)=0">
-														<xsl:value-of select="$periodicalTitleDot"/>
-													</xsl:if>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempDEP)>0">
-													<xsl:choose>
-														<xsl:when test="string-length($theAuthorSufixDot)>0 and string-length($periodicalTitle)>0">
+													<xsl:if test="string-length($interviewerDot)>0">
+														<xsl:if test="string-length($intervieweeLFDot)>0">
 															<xsl:call-template name="templ_prop_ListSeparator"/>
-														</xsl:when>
-														<xsl:when test="((string-length($theAuthorSufixDot)>0 or string-length($titleDot)>0) and string-length($periodicalTitle)=0) or (string-length($theAuthorSufixDot)=0 and string-length($titleDot)>0)">
+														</xsl:if>
+
+														<xsl:call-template name="StringFormatDot">
+															<xsl:with-param name="format">
+																<xsl:if test="string-length($intervieweeLFDot)>0">
+																	<xsl:call-template name="templ_str_InterviewByUnCap"/>
+																</xsl:if>
+																<xsl:if test="string-length($intervieweeLFDot)=0">
+																	<xsl:call-template name="templ_str_InterviewByCap"/>
+																</xsl:if>
+															</xsl:with-param>
+															<xsl:with-param name="parameters">
+																<t:params>
+																	<t:param>
+																		<xsl:value-of select="$interviewer"/>
+																	</t:param>
+																</t:params>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0">
 															<xsl:call-template name="templ_prop_Space"/>
-														</xsl:when>
-													</xsl:choose>
-	
-													<xsl:value-of select="$tempDEP"/>
-												</xsl:if>
+														</xsl:if>
 
-									</xsl:when>
-
-
-									<xsl:when test="b:SourceType='Film'">
-									
-												<xsl:if test="string-length($writerDot)>0">
-													<xsl:value-of select="$writerLFDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($titleDot)>0">
-													<xsl:if test="string-length($writerDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$titleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-									
-												<xsl:if test="string-length($mediumDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-													
-													<xsl:value-of select="$mediumDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixDirectedByDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
+														<xsl:value-of select="$yearDot"/>
 													</xsl:if>
 
-													<xsl:value-of select="$theCapLongPrefixDirectedByDot"/>
-												</xsl:if>
+													<xsl:if test="string-length($interviewTitle)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
 
-												<xsl:if test="string-length($theCapLongPrefixProducedByDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixProducedByDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($theCapLongPrefixPerformedByDot)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixProducedByDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$theCapLongPrefixPerformedByDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempDY)>0">
-													<xsl:if test="string-length($titleDot)>0 or string-length($writerDot)>0 or string-length($theCapLongPrefixDirectedByDot)>0 or string-length($theCapLongPrefixProducedByDot)>0 or string-length($theCapLongPrefixPerformedByDot)>0 or string-length($mediumDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-													</xsl:if>
-
-													<xsl:value-of select="$tempDY"/>
-												</xsl:if>
-									
-									</xsl:when>
-
-
-									<xsl:when test="b:SourceType='Interview'">
-
-										<xsl:choose>
-										
-											<xsl:when test="string-length($broadcaster)>0">
-
-												<xsl:if test="string-length($intervieweeLFDot)>0">
-						        	                <xsl:if test="string-length($interviewerDot)=0">
-														<xsl:value-of select="$intervieweeLFDot"/>
-													</xsl:if>
-						        	                <xsl:if test="string-length($interviewerDot)>0">
-														<xsl:value-of select="$intervieweeLF"/>
-													</xsl:if>
-												</xsl:if>
-
-						                        <xsl:if test="string-length($interviewerDot)>0">
-													<xsl:if test="string-length($intervieweeLFDot)>0">
-														<xsl:call-template name="templ_prop_ListSeparator"/>
-													</xsl:if>
-
-													<xsl:call-template name="StringFormatDot">
-	  													<xsl:with-param name="format">
+														<xsl:if test="string-length($broadcastTitleDot)>0">
 															<xsl:if test="string-length($intervieweeLFDot)>0">
-										                    	<xsl:call-template name="templ_str_InterviewByUnCap"/>
+																<xsl:call-template name="templ_prop_Space"/>
 															</xsl:if>
-															<xsl:if test="string-length($intervieweeLFDot)=0">
-										                    	<xsl:call-template name="templ_str_InterviewByCap"/>
+
+															<xsl:call-template name="templ_prop_OpenQuote"/>
+															<xsl:value-of select="$interviewTitleDot"/>
+															<xsl:call-template name="templ_prop_CloseQuote"/>
+														</xsl:if>
+
+														<xsl:if test="string-length($broadcastTitleDot)=0">
+															<xsl:if test="string-length($intervieweeLFDot)>0 or string-length($broadcastTitleDot)>0">
+																<xsl:call-template name="templ_prop_Space"/>
 															</xsl:if>
-	  													</xsl:with-param>
-	  													<xsl:with-param name="parameters">
-	  														<t:params>
-	  															<t:param>
-																	<xsl:value-of select="$interviewer"/>
-																</t:param>
-	  														</t:params>
-	  													</xsl:with-param>
-													</xsl:call-template>
-												</xsl:if>
-												
-												<xsl:if test="string-length($interviewTitle)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
+
+															<xsl:call-template name = "ApplyItalicTitleNS">
+																<xsl:with-param name = "data">
+																	<xsl:value-of select="$interviewTitle"/>
+																</xsl:with-param>
+															</xsl:call-template>
+														</xsl:if>
+													</xsl:if>
 
 													<xsl:if test="string-length($broadcastTitleDot)>0">
-														<xsl:if test="string-length($intervieweeLFDot)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0">
 															<xsl:call-template name="templ_prop_Space"/>
 														</xsl:if>
 
-														<xsl:call-template name="templ_prop_OpenQuote"/>
-														<xsl:value-of select="$interviewTitleDot"/>
-														<xsl:call-template name="templ_prop_CloseQuote"/>
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:value-of select="$broadcastTitleDot"/>
+															</xsl:with-param>
+														</xsl:call-template>
 													</xsl:if>
 
-
-													<xsl:if test="string-length($broadcastTitleDot)=0">
-														<xsl:if test="string-length($intervieweeLFDot)>0 or string-length($broadcastTitleDot)>0">
+													<xsl:if test="string-length($broadcasterDot)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0">
 															<xsl:call-template name="templ_prop_Space"/>
 														</xsl:if>
-
-												        <xsl:call-template name = "ApplyItalicTitleNS">
-												         <xsl:with-param name = "data">
-														<xsl:value-of select="$interviewTitle"/>
-											             </xsl:with-param>
-											            </xsl:call-template>
+														<xsl:value-of select="$broadcasterDot"/>
 													</xsl:if>
-												</xsl:if>
 
-												<xsl:if test="string-length($broadcastTitleDot)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:value-of select="$broadcastTitleDot"/>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
-
-												<xsl:if test="string-length($broadcasterDot)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-													<xsl:value-of select="$broadcasterDot"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempSC)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($broadcasterDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-													<xsl:value-of select="$tempSC"/>
-												</xsl:if>
-
-												<xsl:if test="string-length($dateDot)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($broadcasterDot)>0 or string-length($tempSC)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-													<xsl:value-of select="$dateDot"/>
-												</xsl:if>
-											
-											</xsl:when>
-											
-											
-											<xsl:otherwise>
-											
-												<xsl:if test="string-length($intervieweeLFDot)>0">
-						        	                <xsl:if test="string-length($interviewerDot)=0">
-														<xsl:value-of select="$intervieweeLFDot"/>
+													<xsl:if test="string-length($tempSC)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($broadcasterDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+														<xsl:value-of select="$tempSC"/>
 													</xsl:if>
-						        	                <xsl:if test="string-length($interviewerDot)>0">
-														<xsl:value-of select="$intervieweeLF"/>
-													</xsl:if>
-												</xsl:if>
 
-						                        <xsl:if test="string-length($interviewerDot)>0">
+													<xsl:if test="string-length($monthDayDot)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($broadcasterDot)>0 or string-length($tempSC)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+														<xsl:value-of select="$monthDayDot"/>
+													</xsl:if>
+												</xsl:when>
+
+												<xsl:otherwise>
 													<xsl:if test="string-length($intervieweeLFDot)>0">
-														<xsl:call-template name="templ_prop_ListSeparator"/>
+														<xsl:if test="string-length($interviewerDot)=0">
+															<xsl:value-of select="$intervieweeLFDot"/>
+														</xsl:if>
+														<xsl:if test="string-length($interviewerDot)>0">
+															<xsl:value-of select="$intervieweeLF"/>
+														</xsl:if>
 													</xsl:if>
-													
-													<xsl:call-template name="StringFormatDot">
-	  													<xsl:with-param name="format">
-															<xsl:if test="string-length($intervieweeLFDot)>0">
-										                    	<xsl:call-template name="templ_str_InterviewByUnCap"/>
-															</xsl:if>
-															<xsl:if test="string-length($intervieweeLFDot)=0">
-										                    	<xsl:call-template name="templ_str_InterviewByCap"/>
-															</xsl:if>
-	  													</xsl:with-param>
-	  													<xsl:with-param name="parameters">
-	  														<t:params>
-	  															<t:param>
-																	<xsl:value-of select="$interviewer"/>
-																</t:param>
-	  														</t:params>
-	  													</xsl:with-param>
-													</xsl:call-template>
-												</xsl:if>
 
-												<xsl:if test="string-length($interviewTitle)>0">
-
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-
-													<xsl:if test="string-length($broadcastTitleDot)>0">
+													<xsl:if test="string-length($interviewerDot)>0">
 														<xsl:if test="string-length($intervieweeLFDot)>0">
+															<xsl:call-template name="templ_prop_ListSeparator"/>
+														</xsl:if>
+
+														<xsl:call-template name="StringFormatDot">
+															<xsl:with-param name="format">
+																<xsl:if test="string-length($intervieweeLFDot)>0">
+																	<xsl:call-template name="templ_str_InterviewByUnCap"/>
+																</xsl:if>
+																<xsl:if test="string-length($intervieweeLFDot)=0">
+																	<xsl:call-template name="templ_str_InterviewByCap"/>
+																</xsl:if>
+															</xsl:with-param>
+															<xsl:with-param name="parameters">
+																<t:params>
+																	<t:param>
+																		<xsl:value-of select="$interviewer"/>
+																	</t:param>
+																</t:params>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($yearDot)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0">
 															<xsl:call-template name="templ_prop_Space"/>
 														</xsl:if>
 
-														<xsl:call-template name="templ_prop_OpenQuote"/>
-														<xsl:value-of select="$interviewTitleDot"/>
-														<xsl:call-template name="templ_prop_CloseQuote"/>
+														<xsl:value-of select="$yearDot"/>
 													</xsl:if>
 
-
-													<xsl:if test="string-length($broadcastTitleDot)=0">
-														<xsl:if test="string-length($intervieweeLFDot)>0 or string-length($broadcastTitleDot)>0">
+													<xsl:if test="string-length($interviewTitle)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0">
 															<xsl:call-template name="templ_prop_Space"/>
 														</xsl:if>
 
-												        <xsl:call-template name = "ApplyItalicTitleNS">
-												         <xsl:with-param name = "data">
-														<xsl:value-of select="$interviewTitle"/>
-	 											         </xsl:with-param>
-	 											        </xsl:call-template>
-													</xsl:if>
-												</xsl:if>
+														<xsl:if test="string-length($broadcastTitleDot)>0">
+															<xsl:if test="string-length($intervieweeLFDot)>0">
+																<xsl:call-template name="templ_prop_Space"/>
+															</xsl:if>
 
-												<xsl:if test="string-length($broadcastTitleDot)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-													
-											        <xsl:call-template name = "ApplyItalicTitleNS">
-											         <xsl:with-param name = "data">
-													<xsl:if test="string-length($editor)>0 or string-length($translator)>0">
-														<xsl:value-of select="$broadcastTitle"/>
-													</xsl:if>
-													<xsl:if test="string-length($editor)=0 and string-length($translator)=0">
-														<xsl:value-of select="$broadcastTitleDot"/>
-													</xsl:if>
-											         </xsl:with-param>
-											        </xsl:call-template>
-												</xsl:if>
+															<xsl:call-template name="templ_prop_OpenQuote"/>
+															<xsl:value-of select="$interviewTitleDot"/>
+															<xsl:call-template name="templ_prop_CloseQuote"/>
+														</xsl:if>
 
+														<xsl:if test="string-length($broadcastTitleDot)=0">
+															<xsl:if test="string-length($intervieweeLFDot)>0 or string-length($broadcastTitleDot)>0">
+																<xsl:call-template name="templ_prop_Space"/>
+															</xsl:if>
 
-												<xsl:if test="string-length($theCapLongPrefixEditedByDot)>0">
+															<xsl:call-template name = "ApplyItalicTitleNS">
+																<xsl:with-param name = "data">
+																	<xsl:value-of select="$interviewTitle"/>
+																</xsl:with-param>
+															</xsl:call-template>
+														</xsl:if>
+													</xsl:if>
+
 													<xsl:if test="string-length($broadcastTitleDot)>0">
-														<xsl:call-template name="templ_prop_ListSeparator"/>
-														<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
-															<xsl:value-of select="$theUnCapLongPrefixEditedBy"/>
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0">
+															<xsl:call-template name="templ_prop_Space"/>
 														</xsl:if>
-														<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)=0">
-															<xsl:value-of select="$theUnCapLongPrefixEditedByDot"/>
+
+														<xsl:call-template name = "ApplyItalicTitleNS">
+															<xsl:with-param name = "data">
+																<xsl:if test="string-length($editor)>0 or string-length($translator)>0">
+																	<xsl:value-of select="$broadcastTitle"/>
+																</xsl:if>
+																<xsl:if test="string-length($editor)=0 and string-length($translator)=0">
+																	<xsl:value-of select="$broadcastTitleDot"/>
+																</xsl:if>
+															</xsl:with-param>
+														</xsl:call-template>
+													</xsl:if>
+
+													<xsl:if test="string-length($theCapLongPrefixEditedByDot)>0">
+														<xsl:if test="string-length($broadcastTitleDot)>0">
+															<xsl:call-template name="templ_prop_ListSeparator"/>
+															<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
+																<xsl:value-of select="$theUnCapLongPrefixEditedBy"/>
+															</xsl:if>
+															<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)=0">
+																<xsl:value-of select="$theUnCapLongPrefixEditedByDot"/>
+															</xsl:if>
+														</xsl:if>
+
+														<xsl:if test="string-length($broadcastTitleDot)=0">
+															<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
+																<xsl:value-of select="$theCapLongPrefixEditedBy"/>
+															</xsl:if>
+															<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)=0">
+																<xsl:value-of select="$theCapLongPrefixEditedByDot"/>
+															</xsl:if>
 														</xsl:if>
 													</xsl:if>
-													<xsl:if test="string-length($broadcastTitleDot)=0">
-														<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
-															<xsl:value-of select="$theCapLongPrefixEditedBy"/>
+
+													<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
+														<xsl:if test="string-length($broadcastTitleDot)>0 or string-length($theCapLongPrefixEditedByDot)>0">
+															<xsl:call-template name="templ_prop_ListSeparator"/>
+															<xsl:value-of select="$theUnCapLongPrefixTranslatedByDot"/>
 														</xsl:if>
-														<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)=0">
-															<xsl:value-of select="$theCapLongPrefixEditedByDot"/>
+														<xsl:if test="string-length($broadcastTitleDot)=0 and string-length($theCapLongPrefixEditedByDot)=0">
+															<xsl:value-of select="$theCapLongPrefixTranslatedByDot"/>
 														</xsl:if>
 													</xsl:if>
-												</xsl:if>
 
-												<xsl:if test="string-length($theCapLongPrefixTranslatedByDot)>0">
-													<xsl:if test="string-length($broadcastTitleDot)>0 or string-length($theCapLongPrefixEditedByDot)>0">
-														<xsl:call-template name="templ_prop_ListSeparator"/>
-														<xsl:value-of select="$theUnCapLongPrefixTranslatedByDot"/>
+													<xsl:if test="string-length($tempCPMDP)>0">
+														<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($yearDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($theCapLongPrefixTranslatedByDot)>0 or string-length($theCapLongPrefixEditedByDot)>0">
+															<xsl:call-template name="templ_prop_Space"/>
+														</xsl:if>
+
+														<xsl:value-of select="$tempCPMDP"/>
 													</xsl:if>
-													<xsl:if test="string-length($broadcastTitleDot)=0 and string-length($theCapLongPrefixEditedByDot)=0">
-														<xsl:value-of select="$theCapLongPrefixTranslatedByDot"/>
-													</xsl:if>
-												</xsl:if>
-
-												<xsl:if test="string-length($tempCPDMY)>0">
-						                        	<xsl:if test="string-length($interviewerDot)>0 or string-length($intervieweeLFDot)>0 or string-length($interviewTitle)>0 or string-length($broadcastTitleDot)>0 or string-length($theCapLongPrefixTranslatedByDot)>0 or string-length($theCapLongPrefixEditedByDot)>0">
-														<xsl:call-template name="templ_prop_Space"/>
-						                        	</xsl:if>
-
-													<xsl:value-of select="$tempCPDMY"/>
-												</xsl:if>
-											</xsl:otherwise>
-										</xsl:choose>
-										
-
-									</xsl:when>
+												</xsl:otherwise>
+											</xsl:choose>
+										</xsl:when>
+									</xsl:choose>
+								</xsl:variable>
 
 
-									
+								<xsl:if test="string-length($source)>0">
+									<xsl:copy-of select="$source"/>
 
-
-
-									
-								</xsl:choose>
+									<xsl:if test="string-length($tempDAUD)>0">
+										<xsl:call-template name="templ_prop_Space"/>
+										<xsl:value-of select="$tempDAUD"/>
+									</xsl:if>
+								</xsl:if>
 							</xsl:element>
 						</xsl:for-each>
 					</body>
@@ -6971,16 +5657,15 @@
 			</xsl:when>
 		</xsl:choose>
 	</xsl:template>
-	
-	
+
+
 	<xsl:template name="sortedList">
-		<xsl:param name="sourceRoot"/>	
-		<xsl:apply-templates select="msxsl:node-set($sourceRoot)/*">	
-			<xsl:sort select="b:SortingString" />				
-		</xsl:apply-templates>	
+		<xsl:param name="sourceRoot"/>
+		<xsl:apply-templates select="msxsl:node-set($sourceRoot)/*">
+			<xsl:sort select="b:SortingString" />
+		</xsl:apply-templates>
 	</xsl:template>
 
-	
 	<xsl:template match="*">
 	
 		<xsl:element name="{name()}" namespace="{namespace-uri()}">
@@ -6990,15 +5675,15 @@
 				</xsl:attribute>
 			</xsl:for-each>
 			<xsl:apply-templates>
-				<xsl:sort select="b:SortingString" />				
+				<xsl:sort select="b:SortingString" />
 			</xsl:apply-templates>
 		</xsl:element>
 	</xsl:template>
-	
+
 	<xsl:template match="text()">
 		<xsl:value-of select="."/>
 	</xsl:template>
-	
+
 	<xsl:template name="formatMainAuthor">
 		<xsl:call-template name="formatNameCore">
 			<xsl:with-param name="FML"><xsl:call-template name="templ_prop_Chicago_MainAuthor_FML"/></xsl:with-param>
@@ -7029,94 +5714,126 @@
 	</xsl:template>
 
 
-	<xsl:template name="formatPersonSeperator">
+	<xsl:template name="formatPersonSeparator">
+		<xsl:variable name="noCommaBeforeAnd">
+			<xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
+		</xsl:variable>
+		<xsl:variable name="noAndBeforeLastAuthor">
+			<xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
+		</xsl:variable>
 
 		<xsl:choose>
-			<xsl:when test="count(../b:Person) > 6 and position() = 1">
-        <xsl:variable name="noCommaBeforeAnd">
-          <xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="$noCommaBeforeAnd != 'yes'">
-            <xsl:call-template name="templ_prop_ListSeparator"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:call-template name="templ_prop_Space"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:call-template name="templ_str_AndOthersUnCap"/>
-			</xsl:when>
-			<xsl:when test="count(../b:Person) > 6 and position() >= 2">
-			</xsl:when>
-			<xsl:when test="6 >= count(../b:Person) and position() = count(../b:Person) - 1">
-        <xsl:variable name="noCommaBeforeAnd">
-          <xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="$noCommaBeforeAnd != 'yes'">
-            <xsl:call-template name="templ_prop_ListSeparator"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:call-template name="templ_prop_Space"/>
-          </xsl:otherwise>
-        </xsl:choose>
+			<xsl:when test="count(../b:Person) &lt; 11">
+				<xsl:choose>
+					<xsl:when test="position() = count(../b:Person)">
+						<xsl:text></xsl:text>
+					</xsl:when>
 
-        <xsl:variable name="noAndBeforeLastAuthor">
-			        <xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
-				</xsl:variable>
-		        <xsl:if test="$noAndBeforeLastAuthor != 'yes'">
-			        <xsl:call-template name="templ_str_AndUnCap"/>
-			        <xsl:call-template name="templ_prop_Space"/>
-		        </xsl:if>
+					<xsl:when test="position() = count(../b:Person) - 1">
+						<xsl:choose>
+							<xsl:when test="$noCommaBeforeAnd != 'yes'">
+								<xsl:call-template name="templ_prop_ListSeparator"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:call-template name="templ_prop_Space"/>
+							</xsl:otherwise>
+						</xsl:choose>
+
+						<xsl:if test="$noAndBeforeLastAuthor != 'yes'">
+							<xsl:call-template name="templ_str_AndUnCap"/>
+							<xsl:call-template name="templ_prop_Space"/>
+						</xsl:if>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:call-template name="templ_prop_ListSeparator"/>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:when>
-			<xsl:when test="position() = count(../b:Person)">
-				<xsl:text></xsl:text>
-			</xsl:when>
-			<xsl:when test="6 > position()">
-				<xsl:call-template name="templ_prop_ListSeparator"/>
-			</xsl:when>
+
+			<xsl:otherwise>
+				<xsl:choose>
+					<xsl:when test="position() > 7">
+						<xsl:text></xsl:text>
+					</xsl:when>
+
+					<xsl:when test="position() = 7">
+						<xsl:choose>
+							<xsl:when test="$noCommaBeforeAnd != 'yes'">
+								<xsl:call-template name="templ_prop_ListSeparator"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:call-template name="templ_prop_Space"/>
+							</xsl:otherwise>
+						</xsl:choose>
+
+						<xsl:call-template name="templ_str_AndOthersUnCap"/>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:call-template name="templ_prop_ListSeparator"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
-	<xsl:template name="formatPersonSeperator2">
+
+	<xsl:template name="formatPersonSeparator2">
+		<xsl:variable name="noCommaBeforeAnd">
+			<xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
+		</xsl:variable>
+		<xsl:variable name="noAndBeforeLastAuthor">
+			<xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
+		</xsl:variable>
 
 		<xsl:choose>
-			<xsl:when test="count(../b:Person) > 6 and position() = 1">
-        <xsl:variable name="noCommaBeforeAnd">
-          <xsl:call-template name="templ_prop_NoCommaBeforeAnd" />
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="$noCommaBeforeAnd != 'yes'">
-            <xsl:call-template name="templ_prop_ListSeparator"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:call-template name="templ_prop_Space"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:call-template name="templ_str_AndOthersUnCap"/>
-			</xsl:when>
-			<xsl:when test="count(../b:Person) > 6 and position() >= 2">
-			</xsl:when>
-			<xsl:when test="6 >= count(../b:Person) and position() = count(../b:Person) - 1">
-				<xsl:variable name="noAndBeforeLastAuthor">
-			        <xsl:call-template name="templ_prop_NoAndBeforeLastAuthor"/>
-				</xsl:variable>
+			<xsl:when test="count(../b:Person) &lt; 11">
+				<xsl:choose>
+					<xsl:when test="position() = count(../b:Person)">
+						<xsl:text></xsl:text>
+					</xsl:when>
 
-		        <xsl:if test="$noAndBeforeLastAuthor != 'yes'">
-					<xsl:call-template name="templ_prop_Space"/>
-			        <xsl:call-template name="templ_str_AndUnCap"/>
-			        <xsl:call-template name="templ_prop_Space"/>
-			    </xsl:if>
-		        <xsl:if test="$noAndBeforeLastAuthor = 'yes'">
-			        <xsl:call-template name="templ_prop_AuthorsSeparator"/>
-		        </xsl:if>
+					<xsl:when test="position() = count(../b:Person) - 1">
+						<xsl:if test="$noAndBeforeLastAuthor != 'yes'">
+							<xsl:call-template name="templ_prop_Space"/>
+							<xsl:call-template name="templ_str_AndUnCap"/>
+							<xsl:call-template name="templ_prop_Space"/>
+						</xsl:if>
+						<xsl:if test="$noAndBeforeLastAuthor = 'yes'">
+							<xsl:call-template name="templ_prop_AuthorsSeparator"/>
+						</xsl:if>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:call-template name="templ_prop_ListSeparator"/>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:when>
-			<xsl:when test="position() = count(../b:Person)">
-				<xsl:text></xsl:text>
-			</xsl:when>
-			<xsl:when test="6 > position()">
-				<xsl:call-template name="templ_prop_ListSeparator"/>
-			</xsl:when>
+
+			<xsl:otherwise>
+				<xsl:choose>
+					<xsl:when test="position() > 7">
+						<xsl:text></xsl:text>
+					</xsl:when>
+
+					<xsl:when test="position() = 7">
+						<xsl:choose>
+							<xsl:when test="$noCommaBeforeAnd != 'yes'">
+								<xsl:call-template name="templ_prop_ListSeparator"/>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:call-template name="templ_prop_Space"/>
+							</xsl:otherwise>
+						</xsl:choose>
+
+						<xsl:call-template name="templ_str_AndOthersUnCap"/>
+					</xsl:when>
+
+					<xsl:otherwise>
+						<xsl:call-template name="templ_prop_ListSeparator"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
@@ -7126,10 +5843,15 @@
 				<xsl:if test="position() = 1">
 					<xsl:call-template name="formatMainAuthor"/>
 				</xsl:if>
-				<xsl:if test="6 >= count(../b:Person) and 6 >= position() and position() != 1">
-					<xsl:call-template name="formatOtherAuthors"/>
+				<xsl:if test="position() != 1">
+					<xsl:if test="count(../b:Person) &lt; 11">
+						<xsl:call-template name="formatOtherAuthors"/>
+					</xsl:if>
+					<xsl:if test="count(../b:Person) >= 11 and position() &lt; 8">
+						<xsl:call-template name="formatOtherAuthors"/>
+					</xsl:if>
 				</xsl:if>
-				<xsl:call-template name="formatPersonSeperator"/>
+				<xsl:call-template name="formatPersonSeparator"/>
 			</xsl:for-each>
 		</xsl:if>
 
@@ -7137,14 +5859,17 @@
 			<xsl:value-of select="b:Corporate"/>
 		</xsl:if>
 	</xsl:template>
-	
+
 	<xsl:template name="formatPersons">
 		<xsl:if test="string-length(b:Corporate)=0">
 			<xsl:for-each select="b:NameList/b:Person">
-				<xsl:if test="(count(../b:Person) > 6 and 1 = position()) or (6 >= count(../b:Person))">
+				<xsl:if test="count(../b:Person) &lt; 11">
 					<xsl:call-template name="formatSecondaryName"/>
 				</xsl:if>
-				<xsl:call-template name="formatPersonSeperator2"/>
+				<xsl:if test="count(../b:Person) >= 11 and position() &lt; 8">
+					<xsl:call-template name="formatSecondaryName"/>
+				</xsl:if>
+				<xsl:call-template name="formatPersonSeparator2"/>
 			</xsl:for-each>
 		</xsl:if>
 
@@ -7152,7 +5877,7 @@
 			<xsl:value-of select="b:Corporate"/>
 		</xsl:if>
 	</xsl:template>
-	
+
 	<xsl:template name="formatAuthor">
 		<xsl:for-each select="b:Author/b:Author">
 			<xsl:call-template name="formatPersonsAuthor"/>
@@ -7164,7 +5889,6 @@
 			<xsl:call-template name="formatPersonsAuthor"/>
 		</xsl:for-each>
 	</xsl:template>
-
 
 	<xsl:template name="formatBookAuthor">
 		<xsl:for-each select="b:Author/b:BookAuthor">
@@ -7183,7 +5907,6 @@
 			<xsl:call-template name="formatPersonsAuthor"/>
 		</xsl:for-each>
 	</xsl:template>
-
 
 	<xsl:template name="formatPerformerLF">
 		<xsl:for-each select="b:Author/b:Performer">
@@ -7209,13 +5932,11 @@
 		</xsl:for-each>
 	</xsl:template>
 
-
 	<xsl:template name="formatInventorLF">
 		<xsl:for-each select="b:Author/b:Inventor">
 			<xsl:call-template name="formatPersonsAuthor"/>
 		</xsl:for-each>
 	</xsl:template>
-
 
 	<xsl:template name="formatIntervieweeLF">
 		<xsl:for-each select="b:Author/b:Interviewee">
@@ -7223,13 +5944,11 @@
 		</xsl:for-each>
 	</xsl:template>
 
-
 	<xsl:template name="formatInterviewerLF">
 		<xsl:for-each select="b:Author/b:Interviewer">
 			<xsl:call-template name="formatPersonsAuthor"/>
 		</xsl:for-each>
 	</xsl:template>
-
 
 	<xsl:template name="formatCompilerLF">
 		<xsl:for-each select="b:Author/b:Compiler">
@@ -7237,81 +5956,65 @@
 		</xsl:for-each>
 	</xsl:template>
 
-
 	<xsl:template name="formatWriterLF">
 		<xsl:for-each select="b:Author/b:Writer">
 			<xsl:call-template name="formatPersonsAuthor"/>
 		</xsl:for-each>
 	</xsl:template>
 
-
-
-
-
-
-
-
-
-
 	<xsl:template name="formatEditor">
 		<xsl:for-each select="b:Author/b:Editor">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="formatTranslator">
 		<xsl:for-each select="b:Author/b:Translator">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
 	</xsl:template>
-	
 
 	<xsl:template name="formatPerformer">
 		<xsl:for-each select="b:Author/b:Performer">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
 	</xsl:template>
-	
-	
 
 	<xsl:template name="formatConductor">
 		<xsl:for-each select="b:Author/b:Conductor">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
 	</xsl:template>
-	
 
 	<xsl:template name="formatComposer">
 		<xsl:for-each select="b:Author/b:Composer">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
-	</xsl:template>		
-	
+	</xsl:template>
+
 	<xsl:template name="formatInterviewer">
 		<xsl:for-each select="b:Author/b:Interviewer">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
-	</xsl:template>		
-	
+	</xsl:template>
 
 	<xsl:template name="formatWriter">
 		<xsl:for-each select="b:Author/b:Writer">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
 	</xsl:template>
-	
 
 	<xsl:template name="formatDirector">
 		<xsl:for-each select="b:Author/b:Director">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
-	</xsl:template>		
-	
+	</xsl:template>
+
 	<xsl:template name="formatProducerName">
 		<xsl:for-each select="b:Author/b:ProducerName">
 			<xsl:call-template name="formatPersons"/>
 		</xsl:for-each>
-	</xsl:template>		
+	</xsl:template>
 
 	<xsl:template name="formatCompiler">
 		<xsl:for-each select="b:Author/b:Compiler">
@@ -7319,34 +6022,37 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="formatDate">
-		<xsl:param name="appendSpace"/>
-		<xsl:call-template name="formatDateCore">
-			<xsl:with-param name="day">
-				<xsl:call-template name="handleSpaces">
-					<xsl:with-param name="field" select="b:Day"/>
-				</xsl:call-template>
-			</xsl:with-param>
+	<xsl:template name="getMonthDay">
+		<xsl:if test="string-length(b:Year)>0 and string-length(b:Month)>0">
+			<xsl:call-template name="StringFormatDate">
+				<xsl:with-param name="day">
+					<xsl:call-template name="handleSpaces">
+						<xsl:with-param name="field" select="b:Day"/>
+					</xsl:call-template>
+				</xsl:with-param>
 
-			<xsl:with-param name="month">
-				<xsl:call-template name="handleSpaces">
-					<xsl:with-param name="field" select="b:Month"/>
-				</xsl:call-template>
-			</xsl:with-param>
+				<xsl:with-param name="month">
+					<xsl:call-template name="handleSpaces">
+						<xsl:with-param name="field" select="b:Month"/>
+					</xsl:call-template>
+				</xsl:with-param>
 
-			<xsl:with-param name="year">
-				<xsl:call-template name="handleSpaces">
-					<xsl:with-param name="field" select="b:Year"/>
-				</xsl:call-template>
-			</xsl:with-param>
-
-			<xsl:with-param name="DMY"><xsl:call-template name="templ_prop_Chicago_Date_DMY"/></xsl:with-param>
-			<xsl:with-param name="DM"><xsl:call-template name="templ_prop_Chicago_Date_DM"/></xsl:with-param>
-			<xsl:with-param name="MY"><xsl:call-template name="templ_prop_Chicago_Date_MY"/></xsl:with-param>
-			<xsl:with-param name="DY"><xsl:call-template name="templ_prop_Chicago_Date_DY"/></xsl:with-param>
-
-			<xsl:with-param name="displayND">yes</xsl:with-param>
-		</xsl:call-template>
+				<xsl:with-param name="format">
+					<xsl:choose>
+						<xsl:when test="string-length(b:Day) = 0 and string-length(b:Month) = 0">
+						</xsl:when>
+						<xsl:when test="string-length(b:Day) = 0 and string-length(b:Month) != 0">
+							<xsl:call-template name="templ_prop_SimpleDate_M" />
+						</xsl:when>
+						<xsl:when test="string-length(b:Day) != 0 and string-length(b:Month) = 0">
+						</xsl:when>
+						<xsl:when test="string-length(b:Day) != 0 and string-length(b:Month) != 0">
+							<xsl:call-template name="templ_prop_Chicago_Date_DM"/>
+						</xsl:when>
+					</xsl:choose>
+				</xsl:with-param>
+			</xsl:call-template>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="formatDateAccessed">
@@ -7375,12 +6081,8 @@
 			<xsl:with-param name="displayND">no</xsl:with-param>
 		</xsl:call-template>
 	</xsl:template>
-	
-	
-		
-		
-		
-		
+
+
 	<xsl:template name="MainContributors">
 		<xsl:param name="SourceRoot"/>
 		<xsl:choose>
@@ -7391,40 +6093,40 @@
 					<xsl:when test="string-length(./b:Author/b:Translator)>0">Translator</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='BookSection'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 					<xsl:when test="string-length(./b:Author/b:BookAuthor)>0">BookAuthor</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='JournalArticle'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 					<xsl:when test="string-length(./b:Author/b:Editor)>0">Editor</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='ArticleInAPeriodical'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 					<xsl:when test="string-length(./b:Author/b:Editor)>0">Editor</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='ConferenceProceedings'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='Report'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-			
+
 			<xsl:when test="./b:SourceType='SoundRecording'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Performer)>0">Performer</xsl:when>
@@ -7433,7 +6135,7 @@
 					<xsl:when test="string-length(./b:Author/b:Artist)>0">Artist</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-						
+
 			<xsl:when test="./b:SourceType='Performance'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Writer)>0">Writer</xsl:when>
@@ -7441,25 +6143,25 @@
 					<xsl:when test="string-length(./b:Author/b:Director)>0">Director</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-						
+
 			<xsl:when test="./b:SourceType='Art'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Artist)>0">Artist</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='DocumentFromInternetSite'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='InternetSite'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='Film'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Writer)>0">Writer</xsl:when>
@@ -7467,7 +6169,7 @@
 					<xsl:when test="string-length(./b:Author/b:Director)>0">Director</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='Interview'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Interviewee)>0">Interviewee</xsl:when>
@@ -7475,7 +6177,7 @@
 					<xsl:when test="string-length(./b:Author/b:Translator)>0">Translator</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='Patent'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Inventor)>0">Inventor</xsl:when>
@@ -7483,20 +6185,20 @@
 					<xsl:when test="string-length(./b:Author/b:Translator)>0">Translator</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='ElectronicSource'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 					<xsl:when test="string-length(./b:Author/b:Editor)>0">Editor</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-									
+
 			<xsl:when test="./b:SourceType='Case'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
 				</xsl:choose>
 			</xsl:when>
-												
+
 			<xsl:when test="./b:SourceType='Misc'">
 				<xsl:choose>
 					<xsl:when test="string-length(./b:Author/b:Author)>0">Author</xsl:when>
@@ -7507,18 +6209,17 @@
 			</xsl:when>	
 		</xsl:choose>
 	</xsl:template>
-	
-	
-	
+
+
 	<xsl:template name="populateMain">
-		<xsl:param name="Type"/>	
-		<xsl:element name="{$Type}">	
-		
-		<xsl:for-each select="/*[$Type]/b:Source">		
-			<xsl:variable name="MostImportantAuthorLocalName">	
+		<xsl:param name="Type"/>
+		<xsl:element name="{$Type}">
+
+		<xsl:for-each select="/*[$Type]/b:Source">
+			<xsl:variable name="MostImportantAuthorLocalName">
 				<xsl:call-template name="MainContributors"/>
 			</xsl:variable>
-			<xsl:element name="{'b:Source'}">	
+			<xsl:element name="{'b:Source'}">
         <xsl:if test="$Type='b:Citation'">
           
           <b:Title>
@@ -7726,12 +6427,11 @@
 						</xsl:if>
 			</xsl:for-each>
 		</xsl:for-each>
-		
-      <xsl:copy-of select="/*[$Type]/b:Locals"/>
-    </xsl:element>
-  </xsl:template>
 
-  
+			<xsl:copy-of select="/*[$Type]/b:Locals"/>
+		</xsl:element>
+	</xsl:template>
+
 	<xsl:template name="copyNameNodes">
 		<xsl:if test="string-length(b:Corporate)=0">
 			<b:NameList>
@@ -7762,11 +6462,9 @@
 			</b:Corporate>
 		</xsl:if>
 	</xsl:template>
-	
-	
+
 	<xsl:template name="copyNodes">
 		<xsl:value-of select="."/>
-
 	</xsl:template>
 
 	<xsl:template name="copyNodes2">
@@ -7780,18 +6478,16 @@
 					<xsl:call-template name="copyNodes2"/>	
 				</xsl:element>
 			</xsl:for-each>
-
 	</xsl:template>
-
 
 	<xsl:template name="handleSpaces">
 		<xsl:param name="field"/>
 
-    <xsl:variable name="prop_NormalizeSpace">
-      <xsl:call-template name="templ_prop_NormalizeSpace"/>
-    </xsl:variable>
+		<xsl:variable name="prop_NormalizeSpace">
+			<xsl:call-template name="templ_prop_NormalizeSpace"/>
+		</xsl:variable>
 
-    <xsl:choose>
+		<xsl:choose>
 			<xsl:when test="$prop_NormalizeSpace='yes'">
 				<xsl:value-of select="normalize-space($field)"/>
 			</xsl:when>
@@ -7800,9 +6496,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
-	
-	
+
 	<xsl:template name="appendField_Dot">
 		<xsl:param name="field"/>
 		
@@ -7816,11 +6510,11 @@
 			<xsl:value-of select="substring($temp, string-length($temp))"/>
 		</xsl:variable>
 
-    <xsl:variable name="prop_EndChars">
-      <xsl:call-template name="templ_prop_EndChars"/>
-    </xsl:variable>
+		<xsl:variable name="prop_EndChars">
+			<xsl:call-template name="templ_prop_EndChars"/>
+		</xsl:variable>
 
-    <xsl:choose>
+		<xsl:choose>
 			<xsl:when test="string-length($temp) = 0">
 			</xsl:when>
 			<xsl:when test="contains($prop_EndChars, $lastChar)">
@@ -7831,12 +6525,11 @@
 				<xsl:call-template name="templ_prop_Dot"/>
 			</xsl:otherwise>
 		</xsl:choose>
-		
 	</xsl:template>
-	
+
 	<xsl:template name="need_Dot">
 		<xsl:param name="field"/>
-		
+
 		<xsl:variable name="temp">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="$field"/>
@@ -7846,12 +6539,12 @@
 		<xsl:variable name="lastChar">
 			<xsl:value-of select="substring($temp, string-length($temp))"/>
 		</xsl:variable>
-    
-    <xsl:variable name="prop_EndChars">
-      <xsl:call-template name="templ_prop_EndChars"/>
-    </xsl:variable>
 
-    <xsl:choose>
+		<xsl:variable name="prop_EndChars">
+			<xsl:call-template name="templ_prop_EndChars"/>
+		</xsl:variable>
+
+		<xsl:choose>
 			<xsl:when test="string-length($temp) = 0">
 			</xsl:when>
 			<xsl:when test="contains($prop_EndChars, $lastChar)">
@@ -7864,16 +6557,16 @@
 
 	<xsl:template name="appendFieldNoHandleSpaces_Dot">
 		<xsl:param name="field"/>
-		
+
 		<xsl:variable name="lastChar">
 			<xsl:value-of select="substring($field, string-length($field))"/>
 		</xsl:variable>
-    
-    <xsl:variable name="prop_EndChars">
-      <xsl:call-template name="templ_prop_EndChars"/>
-    </xsl:variable>
 
-    <xsl:choose>
+		<xsl:variable name="prop_EndChars">
+			<xsl:call-template name="templ_prop_EndChars"/>
+		</xsl:variable>
+
+		<xsl:choose>
 			<xsl:when test="string-length($field) = 0">
 			</xsl:when>
 			<xsl:when test="contains($prop_EndChars, $lastChar)">
@@ -7884,21 +6577,19 @@
 				<xsl:call-template name="templ_prop_Dot"/>
 			</xsl:otherwise>
 		</xsl:choose>
-		
 	</xsl:template>
-
 
 	<xsl:template name="templateA">
 		<xsl:param name="first"/>
 		<xsl:param name="second"/>
 		<xsl:param name="third"/>
-		
+
 		<xsl:variable name="tempFirst">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="$first"/>
 			</xsl:call-template>
 		</xsl:variable>
-		
+
 		<xsl:variable name="tempSecond">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="$second"/>
@@ -7935,20 +6626,20 @@
 
 		<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
 			<xsl:with-param name="field" select="$temp"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 
 	<xsl:template name="templateANoDot">
 		<xsl:param name="first"/>
 		<xsl:param name="second"/>
 		<xsl:param name="third"/>
-		
+
 		<xsl:variable name="tempFirst">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="$first"/>
 			</xsl:call-template>
 		</xsl:variable>
-		
+
 		<xsl:variable name="tempSecond">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="$second"/>
@@ -7980,44 +6671,6 @@
 		<xsl:if test="string-length($tempThird)>0">
 			<xsl:value-of select="$tempThird"/>
 		</xsl:if>
-
-	</xsl:template>
-
-	<xsl:template name="templateB">
-		<xsl:param name="first"/>
-		<xsl:param name="second"/>
-		
-		<xsl:variable name="tempFirst">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="$first"/>
-			</xsl:call-template>
-		</xsl:variable>
-		
-		<xsl:variable name="tempSecond">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="$second"/>
-			</xsl:call-template>
-		</xsl:variable>
-
-		<xsl:variable name="temp">
-			<xsl:if test="string-length($tempFirst)>0">
-				<xsl:value-of select="$tempFirst"/>
-			</xsl:if>
-
-			<xsl:if test="string-length($tempFirst)>0 and string-length($tempSecond)>0">
-				<xsl:call-template name="templ_prop_EnumSeparator"/>
-			</xsl:if>
-
-			<xsl:if test="string-length($tempSecond)>0">
-				<xsl:value-of select="$tempSecond"/>
-			</xsl:if>
-
-		</xsl:variable>
-
-		<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
-			<xsl:with-param name="field" select="$temp"/>
-		</xsl:call-template>
-		
 	</xsl:template>
 
 	<xsl:template name="templateSpaceAB">
@@ -8054,7 +6707,6 @@
 		<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
 			<xsl:with-param name="field" select="$temp"/>
 		</xsl:call-template>
-		
 	</xsl:template>
 
 
@@ -8086,7 +6738,6 @@
 			<xsl:if test="string-length($tempSecond)>0">
 				<xsl:value-of select="$tempSecond"/>
 			</xsl:if>
-
 		</xsl:variable>
 
 		<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
@@ -8142,7 +6793,7 @@
 
 		<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
 			<xsl:with-param name="field" select="$temp"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 
 	<xsl:template name="templateCityStateProvince">
@@ -8155,34 +6806,27 @@
 		<xsl:value-of select="b:StateProvince"/>
 	</xsl:template>
 
-	<xsl:template name="templateCPY">
+	<xsl:template name="templateCSPP">
 		<xsl:call-template name="templateA">
 			<xsl:with-param name="first">
 				<xsl:call-template name="templateCityStateProvince" />
 			</xsl:with-param>
 			<xsl:with-param name="second" select="b:Publisher"/>
-			<xsl:with-param name="third">
-				<xsl:call-template name="getYear" />
-			</xsl:with-param>
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template name="templateCPYNoDot">
+	<xsl:template name="templateCSPPNoDot">
 		<xsl:call-template name="templateANoDot">
 			<xsl:with-param name="first">
 				<xsl:call-template name="templateCityStateProvince" />
 			</xsl:with-param>
 			<xsl:with-param name="second" select="b:Publisher"/>
-			<xsl:with-param name="third">
-				<xsl:call-template name="getYear" />
-			</xsl:with-param>
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template name="templateDEP">
-
-		<xsl:variable name="date">
-			<xsl:call-template name="formatDate"/>
+	<xsl:template name="templateMDEP">
+		<xsl:variable name="monthDayLocal">
+			<xsl:call-template name="getMonthDay"/>
 		</xsl:variable>
 		
 		<xsl:variable name="editionTemp">
@@ -8195,46 +6839,34 @@
 			<xsl:choose>
 				<xsl:when test="string-length($editionTemp)>0">
 					<xsl:call-template name="StringFormat">
-	  					<xsl:with-param name="format">
+						<xsl:with-param name="format">
 							<xsl:call-template name="templ_str_EditionShortUnCap"/>
-	  					</xsl:with-param>
-	  					<xsl:with-param name="parameters">
-	  						<t:params>
-	  							<t:param>
+						</xsl:with-param>
+						<xsl:with-param name="parameters">
+							<t:params>
+								<t:param>
 									<xsl:value-of select="$editionTemp"/>
 								</t:param>
-	  						</t:params>
-	  					</xsl:with-param>
+							</t:params>
+						</xsl:with-param>
 					</xsl:call-template>
 				</xsl:when>
 			</xsl:choose>
 		</xsl:variable>
-	
+
 		<xsl:call-template name="templateE">
-			<xsl:with-param name="first" select="$date"/>
+			<xsl:with-param name="first" select="$monthDayLocal"/>
 			<xsl:with-param name="second" select="$edition"/>
 			<xsl:with-param name="third" select="b:Pages"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template name="templateRYM">
+	<xsl:template name="templateRM">
 		<xsl:call-template name="appendField_Dot">
 			<xsl:with-param name="field" select="b:RecordingNumber"/>
 		</xsl:call-template>
 
-		<xsl:variable name="year">
-			<xsl:call-template name="getYear"/>
-		</xsl:variable>
-
-		<xsl:if test="string-length(b:RecordingNumber) > 0 and (string-length($year) > 0 or string-length(b:Medium) > 0)">
-			<xsl:call-template name="templ_prop_Space"/>
-		</xsl:if>
-
-		<xsl:call-template name="appendField_Dot">
-			<xsl:with-param name="field" select="$year"/>
-		</xsl:call-template>
-
-		<xsl:if test="(string-length($year) > 0 and string-length(b:Medium) > 0)">
+		<xsl:if test="string-length(b:RecordingNumber) > 0 and string-length(b:Medium) > 0">
 			<xsl:call-template name="templ_prop_Space"/>
 		</xsl:if>
 
@@ -8247,28 +6879,19 @@
 		<xsl:call-template name="templateC">
 			<xsl:with-param name="first" select="b:Theater"/>
 			<xsl:with-param name="second" select="b:City"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 
 	<xsl:template name="templateIC">
 		<xsl:call-template name="templateC">
 			<xsl:with-param name="first" select="b:Institution"/>
 			<xsl:with-param name="second" select="b:City"/>
-		</xsl:call-template>		
-	</xsl:template>
-
-	<xsl:template name="templateDY">
-		<xsl:call-template name="templateC">
-			<xsl:with-param name="first" select="b:Distributor"/>
-			<xsl:with-param name="second">
-				<xsl:call-template name="getYear" />
-			</xsl:with-param>
 		</xsl:call-template>
 	</xsl:template>
 	
-	<xsl:template name="templateCPD">
-		<xsl:variable name="date">
-			<xsl:call-template name="formatDate"/>
+	<xsl:template name="templateCPMD">
+		<xsl:variable name="monthDayLocal">
+			<xsl:call-template name="getMonthDay"/>
 		</xsl:variable>
 		
 		<xsl:call-template name="templateA">
@@ -8276,15 +6899,15 @@
 				<xsl:call-template name="templateCityStateProvince" />
 			</xsl:with-param>
 			<xsl:with-param name="second" select="b:Publisher"/>
-			<xsl:with-param name="third" select="$date"/>
-		</xsl:call-template>		
+			<xsl:with-param name="third" select="$monthDayLocal"/>
+		</xsl:call-template>
 	</xsl:template>
 	
 	<xsl:template name="templateSC">
 		<xsl:call-template name="templateC">
 			<xsl:with-param name="first" select="b:Station"/>
 			<xsl:with-param name="second" select="b:City"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 	
 
@@ -8294,22 +6917,22 @@
 				<xsl:with-param name="field" select="b:PatentNumber"/>
 			</xsl:call-template>
 		</xsl:variable>
-    <xsl:variable name="str_PatentCap">
-      <xsl:call-template name="templ_str_PatentCap"/>
-    </xsl:variable>
+		<xsl:variable name="str_PatentCap">
+			<xsl:call-template name="templ_str_PatentCap"/>
+		</xsl:variable>
 
-    <xsl:variable name="patent">
+		<xsl:variable name="patent">
 			<xsl:choose>
 				<xsl:when test="string-length($patentTemp)>0">
 					<xsl:call-template name="StringFormat">
-	  					<xsl:with-param name="format" select="$str_PatentCap"/>
-	  					<xsl:with-param name="parameters">
-	  						<t:params>
-	  							<t:param>
+						<xsl:with-param name="format" select="$str_PatentCap"/>
+						<xsl:with-param name="parameters">
+							<t:params>
+								<t:param>
 									<xsl:value-of select="$patentTemp"/>
 								</t:param>
-	  						</t:params>
-	  					</xsl:with-param>
+							</t:params>
+						</xsl:with-param>
 					</xsl:call-template>
 				</xsl:when>
 			</xsl:choose>
@@ -8317,28 +6940,27 @@
 		<xsl:call-template name="templateSpaceAB">
 			<xsl:with-param name="first" select="b:CountryRegion"/>
 			<xsl:with-param name="second" select="$patent"/>
-		</xsl:call-template>		
+		</xsl:call-template>
 	</xsl:template>
 
-
-	<xsl:template name="templateCCD">
-		<xsl:variable name="date">
-			<xsl:call-template name="formatDate"/>
+	<xsl:template name="templateCCMD">
+		<xsl:variable name="monthDayLocal">
+			<xsl:call-template name="getMonthDay"/>
 		</xsl:variable>
-		
+
 		<xsl:variable name="temp">
-			<xsl:if test = "string-length(b:Court)>0 or string-length(b:City)>0 or string-length($date)>0">
+			<xsl:if test = "string-length(b:Court)>0 or string-length(b:City)>0 or string-length($monthDayLocal)>0">
 				<xsl:call-template name="templ_prop_OpenBracket"/>
 				<xsl:value-of select="b:Court"/>
-				<xsl:if test = "string-length(b:Court)>0 and (string-length(b:City)>0 or string-length($date)>0)">
+				<xsl:if test = "string-length(b:Court)>0 and (string-length(b:City)>0 or string-length($monthDayLocal)>0)">
 					<xsl:call-template name="templ_prop_ListSeparator"/>
 				</xsl:if>
-				<xsl:if test = "string-length(b:City)>0 or string-length($date)>0">
+				<xsl:if test = "string-length(b:City)>0 or string-length($monthDayLocal)>0">
 					<xsl:value-of select="b:City"/>
-					<xsl:if test = "string-length(b:City)>0 and string-length($date)>0">
+					<xsl:if test = "string-length(b:City)>0 and string-length($monthDayLocal)>0">
 						<xsl:call-template name="templ_prop_Space"/>
 					</xsl:if>
-					<xsl:value-of select="$date"/>
+					<xsl:value-of select="$monthDayLocal"/>
 				</xsl:if>
 				<xsl:call-template name="templ_prop_CloseBracket"/>
 			</xsl:if>
@@ -8349,8 +6971,7 @@
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template name="templateVIYP">
-
+	<xsl:template name="templatePVIP">
 		<xsl:variable name="volume">
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="b:Volume"/>
@@ -8361,30 +6982,6 @@
 			<xsl:call-template name="handleSpaces">
 				<xsl:with-param name="field" select="b:Issue"/>
 			</xsl:call-template>
-		</xsl:variable>
-
-		<xsl:variable name="year">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field">
-					<xsl:call-template name="getYear" />
-				</xsl:with-param>
-			</xsl:call-template>
-		</xsl:variable>
-
-		<xsl:variable name="month">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="b:Month"/>
-			</xsl:call-template>
-		</xsl:variable>
-
-		<xsl:variable name="monthYear">
-			<xsl:if test="string-length(b:Year)>0">
-				<xsl:value-of select="$month" />
-				<xsl:if test="string-length($month) > 0">
-					<xsl:call-template name="templ_prop_Space"/>
-				</xsl:if>
-			</xsl:if>
-			<xsl:value-of select="$year" />
 		</xsl:variable>
 
 		<xsl:variable name="pages">
@@ -8394,75 +6991,44 @@
 		</xsl:variable>
 
 		<xsl:variable name="temp">
-		
 			<xsl:if test="string-length(b:Publisher)>0">
-				<xsl:if test="string-length(b:JournalName)>0">
-					<xsl:call-template name="templ_prop_Space"/>
-				</xsl:if>
 				<xsl:call-template name="templ_prop_OpenBracket"/>
 				<xsl:value-of select="b:Publisher"/>
 				<xsl:call-template name="templ_prop_CloseBracket"/>
 			</xsl:if>
 
 			<xsl:if test="string-length($volume)>0">
-				<xsl:if test="string-length(b:JournalName)>0 or string-length(b:Publisher)>0">
+				<xsl:if test="string-length(b:Publisher)>0">
 					<xsl:call-template name="templ_prop_Space"/>
 				</xsl:if>
 				<xsl:value-of select="$volume"/>
 			</xsl:if>
 
-			<xsl:if test="((string-length(b:JournalName)>0 or string-length(b:Publisher)>0 or string-length($volume)>0) and string-length($issue)>0) or ((string-length($volume)=0 and string-length($issue)=0) and (string-length(b:JournalName)>0 and string-length($monthYear)>0))">
-				<xsl:call-template name="templ_prop_ListSeparator"/>
-			</xsl:if>
-			
-			<xsl:variable name="str_NumberShortUnCap">
-				<xsl:call-template name="templ_str_NumberShortUnCap"/>
-			</xsl:variable>
-
 			<xsl:if test="string-length($issue)>0">
-				<xsl:call-template name="StringFormat">
-	  				<xsl:with-param name="format" select="$str_NumberShortUnCap"/>
-	  				<xsl:with-param name="parameters">
-	  					<t:params>
-	  						<t:param>
-								<xsl:value-of select="$issue"/>
-							</t:param>
-	  					</t:params>
-	  				</xsl:with-param>
-				</xsl:call-template>
+				<xsl:if test="string-length(b:Publisher)>0 or string-length($volume)>0">
+					<xsl:call-template name="templ_prop_Space"/>
+				</xsl:if>
+
+				<xsl:call-template name="templ_prop_OpenBracket"/>
+				<xsl:value-of select="$issue"/>
+				<xsl:call-template name="templ_prop_CloseBracket"/>
 			</xsl:if>
 
-			<xsl:if test="string-length($monthYear)>0">
-				<xsl:call-template name="templ_prop_Space"/>
-				
-				<xsl:if test="string-length($volume)>0 or string-length($issue)>0">
-					<xsl:call-template name="templ_prop_OpenBracket"/>
-				</xsl:if>
-				
-				<xsl:value-of select="$monthYear"/>
-
-				<xsl:if test="string-length($volume)>0 or string-length($issue)>0">
-					<xsl:call-template name="templ_prop_CloseBracket"/>
-				</xsl:if>
-			</xsl:if>
-			
-			<xsl:if test="(string-length($volume)>0 or string-length($issue)>0 or string-length($monthYear)>0) and (string-length($pages)>0)">
+			<xsl:if test="(string-length($volume)>0 or string-length($issue)>0) and (string-length($pages)>0)">
 				<xsl:call-template name="templ_prop_EnumSeparator"/>
 			</xsl:if>
 
 			<xsl:if test="string-length($pages)>0">
-				<xsl:if test="(string-length(b:JournalName)>0 or string-length(b:Publisher)>0)and not((string-length($volume)>0 or string-length($issue)>0 or string-length($monthYear)>0))">
+				<xsl:if test="string-length(b:Publisher)>0 or string-length($volume)>0 or string-length($issue)>0">
 					<xsl:call-template name="templ_prop_Space"/>
 				</xsl:if>
 				<xsl:value-of select="$pages"/>
 			</xsl:if>
 		</xsl:variable>
-		
+
 		<xsl:call-template name="appendField_Dot">
 			<xsl:with-param name="field" select="$temp"/>
 		</xsl:call-template>
-		
-		
 	</xsl:template>
 
 	<xsl:template match="*" mode="outputHtml">
@@ -8472,103 +7038,13 @@
 					<xsl:value-of select="." />
 				</xsl:attribute>
 			</xsl:for-each>
-			<xsl:apply-templates mode="outputHtml"/>		
+			<xsl:apply-templates mode="outputHtml"/>
 		</xsl:element>
 	</xsl:template>
 
-	
-	<xsl:template name="templateVI">
-
-		<xsl:variable name="volume">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="b:Volume"/>
-			</xsl:call-template>
-		</xsl:variable>
-
-		<xsl:variable name="issue">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="b:Issue"/>
-			</xsl:call-template>
-		</xsl:variable>
-	
-	    <xsl:variable name="prop_APA_Hyphens">
-	      <xsl:call-template name="templ_prop_Hyphens"/>
-	    </xsl:variable>
-	    
-    		<xsl:variable name="theVolume">
-			<xsl:if test="string-length($volume)>0">
-				<xsl:call-template name="StringFormat">
-					<xsl:with-param name="format">
-					  <xsl:choose>
-						<xsl:when test="not(string-length($volume)=string-length(translate($volume, ',', '')))">
-						  <xsl:call-template name="templ_str_VolumesShortCap"/>
-						</xsl:when>
-						<xsl:when test="string-length($volume)=string-length(translate($volume, $prop_APA_Hyphens, ''))">
-						  <xsl:call-template name="templ_str_VolumeShortCap"/>
-						</xsl:when>
-						<xsl:otherwise>
-						  <xsl:call-template name="templ_str_VolumesShortCap"/>
-						</xsl:otherwise>
-					  </xsl:choose>
-					</xsl:with-param>
-					<xsl:with-param name="parameters">
-						<t:params>
-							<t:param>
-								<xsl:value-of select="$volume"/>
-							</t:param>
-						</t:params>
-					</xsl:with-param>
-				</xsl:call-template>	
-			</xsl:if>
-		</xsl:variable>
-
-    <xsl:variable name="str_NumberShortUnCap">
-      <xsl:call-template name="templ_str_NumberShortUnCap"/>
-    </xsl:variable>
-    <xsl:variable name="str_NumberShortCap">
-      <xsl:call-template name="templ_str_NumberShortCap"/>
-    </xsl:variable>
-
-    <xsl:variable name="theIssue">
-			<xsl:if test="string-length($issue)>0">
-				<xsl:if test="string-length($volume)>0">
-					<xsl:call-template name="StringFormat">
-	  					<xsl:with-param name="format" select="$str_NumberShortUnCap"/>
-	  					<xsl:with-param name="parameters">
-	  						<t:params>
-	  							<t:param>
-									<xsl:value-of select="$issue"/>
-								</t:param>
-	  						</t:params>
-	  					</xsl:with-param>
-					</xsl:call-template>
-				</xsl:if>
-				<xsl:if test="string-length($volume)=0">
-					<xsl:call-template name="StringFormat">
-	  					<xsl:with-param name="format" select="$str_NumberShortCap"/>
-	  					<xsl:with-param name="parameters">
-	  						<t:params>
-	  							<t:param>
-									<xsl:value-of select="$issue"/>
-								</t:param>
-	  						</t:params>
-	  					</xsl:with-param>
-					</xsl:call-template>
-				</xsl:if>
-			</xsl:if>
-		</xsl:variable>
-
-
-		<xsl:call-template name="templateB">
-			<xsl:with-param name="first" select="$theVolume"/>
-			<xsl:with-param name="second" select="$theIssue"/>
-		</xsl:call-template>		
-	</xsl:template>
-
-	<xsl:template name="templateCPDMY">
-
-		<xsl:variable name="date">
-			<xsl:call-template name="formatDate"/>
+	<xsl:template name="templateCPMDP">
+		<xsl:variable name="monthDayLocal">
+			<xsl:call-template name="getMonthDay"/>
 		</xsl:variable>
 
 		<xsl:variable name = "temp">
@@ -8578,25 +7054,25 @@
 				</xsl:with-param>
 				<xsl:with-param name="second" select="b:Publisher"/>
 				<xsl:with-param name="third">
-					<xsl:if test = "string-length($date) > 0">
+					<xsl:if test = "string-length($monthDayLocal) > 0">
 						<xsl:call-template name="templ_prop_OpenBracket"/>
-						<xsl:value-of select="$date"/>
+						<xsl:value-of select="$monthDayLocal"/>
 						<xsl:call-template name="templ_prop_CloseBracket"/>
 					</xsl:if>
 
-					<xsl:if test = "string-length(b:Pages) > 0 and string-length($date) > 0">
+					<xsl:if test = "string-length(b:Pages) > 0 and string-length($monthDayLocal) > 0">
 						<xsl:call-template name="templ_prop_EnumSeparator"/>
 						<xsl:value-of select="b:Pages"/>
 					</xsl:if>
 				</xsl:with-param>
-			</xsl:call-template>	
+			</xsl:call-template>
 		</xsl:variable>
 
 		<xsl:if test = "string-length($temp) > 0">
 			<xsl:value-of select="$temp"/>
 		</xsl:if>
 		
-		<xsl:if test = "string-length(b:Pages) > 0 and string-length($date) = 0">
+		<xsl:if test = "string-length(b:Pages) > 0 and string-length($monthDayLocal) = 0">
 			<xsl:if test = "string-length($temp) > 0">
 				<xsl:call-template name="templ_prop_Space"/>
 			</xsl:if>
@@ -8607,41 +7083,72 @@
 		</xsl:if>
 	</xsl:template>
 
-	<xsl:template name="templateDACURL">
-
-		<xsl:variable name="date">
+	<xsl:template name="templateDAUD">
+		<xsl:variable name="dateAccessed">
 			<xsl:call-template name="formatDateAccessed"/>
 		</xsl:variable>
 
-		<xsl:if test = "string-length(b:URL) > 0">
-			<xsl:value-of select="b:URL"/>
-		</xsl:if>
-		
-		<xsl:if test = "string-length(b:URL) > 0 and string-length($date) > 0">
-			<xsl:call-template name="templ_prop_Space"/>
+		<xsl:variable name="doiPrefix" select="'doi'"/>
+
+		<xsl:variable name="doi">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="b:DOI"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:if test = "string-length($dateAccessed) > 0">
+			<xsl:variable name="fullDateAccessed">
+				<xsl:call-template name="StringFormat">
+					<xsl:with-param name="format">
+						<xsl:call-template name="templ_str_AccessedCap"/>
+					</xsl:with-param>
+					<xsl:with-param name="parameters">
+						<t:params>
+							<t:param>
+								<xsl:value-of select="$dateAccessed"/>
+							</t:param>
+						</t:params>
+					</xsl:with-param>
+				</xsl:call-template>
+			</xsl:variable>
+
+			<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
+				<xsl:with-param name="field" select="$fullDateAccessed"/>
+			</xsl:call-template>
 		</xsl:if>
 
-		<xsl:if test = "string-length($date) > 0">
-			<xsl:call-template name="templ_prop_OpenBracket"/>
-			<xsl:call-template name="StringFormat">
-				<xsl:with-param name="format">
-					<xsl:call-template name="templ_str_AccessedUnCap"/>
-				</xsl:with-param>
-				<xsl:with-param name="parameters">
-					<t:params>
-						<t:param>
-							<xsl:value-of select="$date"/>
-						</t:param>
-					</t:params>
-				</xsl:with-param>
-			</xsl:call-template>
-			<xsl:call-template name="templ_prop_CloseBracket"/>
-		</xsl:if>
+		<xsl:choose>
+			<xsl:when test="string-length($doi) > 0">
+				<xsl:if test = "string-length($dateAccessed) > 0">
+					<xsl:call-template name="templ_prop_Space"/>
+				</xsl:if>
+
+				<xsl:variable name="fullDoi">
+					<xsl:value-of select="$doiPrefix"/>
+					<xsl:call-template name="templ_prop_Enum"/>
+					<xsl:value-of select="$doi"/>
+				</xsl:variable>
+
+				<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
+					<xsl:with-param name="field" select="$fullDoi"/>
+				</xsl:call-template>
+			</xsl:when>
+
+			<xsl:when test="string-length(b:URL) > 0">
+				<xsl:if test = "string-length($dateAccessed) > 0">
+					<xsl:call-template name="templ_prop_Space"/>
+				</xsl:if>
+
+				<xsl:call-template name="appendFieldNoHandleSpaces_Dot">
+					<xsl:with-param name="field" select="b:URL"/>
+				</xsl:call-template>
+			</xsl:when>
+		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template name="templateRICPY">
-		<xsl:variable name="tempCPY">
-			<xsl:call-template name="templateCPYNoDot"/>
+	<xsl:template name="templateRICP">
+		<xsl:variable name="tempCSPPNoDot">
+			<xsl:call-template name="templateCSPPNoDot"/>
 		</xsl:variable>
 
 		<xsl:call-template name='PrintList'>
@@ -8657,7 +7164,7 @@
 						<xsl:value-of select ="b:Institution"/>
 					</TextItem>
 					<TextItem>
-						<xsl:value-of select ="$tempCPY"/>
+						<xsl:value-of select ="$tempCSPPNoDot"/>
 					</TextItem>
 					<TextItem>
 						<xsl:value-of select ="b:Pages"/>
@@ -8665,36 +7172,6 @@
 				</Items>
 			</xsl:with-param>
 		</xsl:call-template>
-	
-	</xsl:template>
-
-	<xsl:template name="templatePR">
-
-		<xsl:variable name="producerName">
-			<xsl:call-template name="formatProducerName"/>
-		</xsl:variable>
-
-		<xsl:variable name="productionCompany">
-			<xsl:call-template name="handleSpaces">
-				<xsl:with-param name="field" select="b:ProductionCompany"/>
-			</xsl:call-template>
-		</xsl:variable>
-
-
-		<xsl:variable name="prod">
-			<xsl:if test="string-length($producerName)>0">
-				<xsl:value-of select="$producerName"/>
-			</xsl:if>
-
-			<xsl:if test="string-length($producerName)=0 and string-length($productionCompany)">
-				<xsl:value-of select="$productionCompany"/>
-			</xsl:if>
-		</xsl:variable>
-
-		<xsl:call-template name="templateC">
-			<xsl:with-param name="first" select="$prod"/>
-			<xsl:with-param name="second" select="b:RecordingNumber"/>
-		</xsl:call-template>		
 	</xsl:template>
 
 	<xsl:template name="formatNameCore">
@@ -8731,7 +7208,7 @@
 					<xsl:call-template name="templ_prop_SimpleAuthor_L" />
 				</xsl:when>
 				<xsl:when test="string-length($first) = 0 and string-length($middle) != 0 and string-length($last) = 0 ">
-          <xsl:call-template name="templ_prop_SimpleAuthor_M" />
+					<xsl:call-template name="templ_prop_SimpleAuthor_M" />
 				</xsl:when>
 				<xsl:when test="string-length($first) = 0 and string-length($middle) != 0 and string-length($last) != 0 ">
 					<xsl:value-of select="$ML"/>
@@ -8779,6 +7256,7 @@
 					<xsl:call-template name="templ_prop_SimpleDate_Y" />
 				</xsl:when>
 				<xsl:when test="string-length($day) = 0 and string-length($month) != 0 and string-length($year) = 0 ">
+					<xsl:call-template name="templ_prop_SimpleDate_M" />
 				</xsl:when>
 				<xsl:when test="string-length($day) = 0 and string-length($month) != 0 and string-length($year) != 0 ">
 					<xsl:value-of select="$MY"/>
@@ -8789,6 +7267,7 @@
 					<xsl:call-template name="templ_prop_SimpleDate_Y" />
 				</xsl:when>
 				<xsl:when test="string-length($day) != 0 and string-length($month) != 0 and string-length($year) = 0 ">
+					<xsl:value-of select="$DM"/>
 				</xsl:when>
 				<xsl:when test="string-length($day) != 0 and string-length($month) != 0 and string-length($year) != 0 ">
 					<xsl:value-of select="$DMY"/>
@@ -8813,11 +7292,11 @@
 		<xsl:param name="withDot" />
 		<xsl:param name="upperLast"/>
 
-    <xsl:variable name="prop_EndChars">
-      <xsl:call-template name="templ_prop_EndChars"/>
-    </xsl:variable>
+		<xsl:variable name="prop_EndChars">
+			<xsl:call-template name="templ_prop_EndChars"/>
+		</xsl:variable>
 
-    <xsl:choose>
+		<xsl:choose>
 			<xsl:when test="$format = ''"></xsl:when>
 			<xsl:when test="substring($format, 1, 2) = '%%'">
 				<xsl:text>%</xsl:text>
@@ -8832,7 +7311,7 @@
 			</xsl:when>
 			<xsl:when test="substring($format, 1, 1) = '%'">
 				<xsl:variable name="what" select="substring($format, 2, 1)" />
-				
+
 				<xsl:choose>
 					<xsl:when test="(what = 'l' or what = 'L') and upperLast = 'yes'">
 						<span style='text-transform: uppercase;'>
@@ -8884,22 +7363,20 @@
 				</xsl:if>
 			</xsl:otherwise>
 		</xsl:choose>
-	</xsl:template>	
+	</xsl:template>
 
 	<xsl:template name="StringFormatDate">
 		<xsl:param name="format" />
-		
 		<xsl:param name="day"/>
 		<xsl:param name="month"/>
-		<xsl:param name="year"/>		
-		
+		<xsl:param name="year"/>
 		<xsl:param name="withDot" />
 
-    <xsl:variable name="prop_EndChars">
-      <xsl:call-template name="templ_prop_EndChars"/>
-    </xsl:variable>
+		<xsl:variable name="prop_EndChars">
+			<xsl:call-template name="templ_prop_EndChars"/>
+		</xsl:variable>
 
-    <xsl:choose>
+		<xsl:choose>
 			<xsl:when test="$format = ''"></xsl:when>
 			<xsl:when test="substring($format, 1, 2) = '%%'">
 				<xsl:text>%</xsl:text>
@@ -8943,7 +7420,7 @@
 								</xsl:call-template>
 							</xsl:with-param>
 						</xsl:call-template>
-					</xsl:variable>				
+					</xsl:variable>
 					<xsl:variable name="lastChar">
 						<xsl:value-of select="substring($temp2, string-length($temp2))"/>
 					</xsl:variable>
@@ -8993,10 +7470,8 @@
 		<xsl:param name="DY"/>
 	
 		<xsl:choose>
-			<xsl:when test="string-length($year)=0">
-				<xsl:if test="$displayND = 'yes'">
-					<xsl:call-template name="templ_str_NoDateShortUnCap"/>
-				</xsl:if>
+			<xsl:when test="string-length($year)=0 and $displayND = 'yes'">
+				<xsl:call-template name="templ_str_NoDateShortUnCap"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:call-template name="formatDateCorePrivate">
@@ -9054,11 +7529,11 @@
 			</xsl:call-template>
 		</xsl:variable>
 
-    <xsl:variable name="prop_APA_Hyphens">
-      <xsl:call-template name="templ_prop_Hyphens"/>
-    </xsl:variable>
+		<xsl:variable name="prop_APA_Hyphens">
+			<xsl:call-template name="templ_prop_Hyphens"/>
+		</xsl:variable>
 
-    <xsl:if test="string-length($temp)>0">
+		<xsl:if test="string-length($temp)>0">
 
 			<xsl:variable name="tempWithoutSpaces">
 				<xsl:value-of select="translate($temp, '&#32;&#160;', '')"/>
@@ -9078,11 +7553,11 @@
 	<xsl:template name="handleHyphens">
 		<xsl:param name="name"/>
 
-    <xsl:variable name="prop_APA_Hyphens">
-      <xsl:call-template name="templ_prop_Hyphens"/>
-    </xsl:variable>
+		<xsl:variable name="prop_APA_Hyphens">
+			<xsl:call-template name="templ_prop_Hyphens"/>
+		</xsl:variable>
 
-    <xsl:if test="string-length($name)>=2">
+		<xsl:if test="string-length($name)>=2">
 			<xsl:choose>
 				<xsl:when test="contains($prop_APA_Hyphens, substring($name, 1, 1))">
 					<xsl:value-of select="substring($name, 1, 2)"/>
@@ -9138,8 +7613,6 @@
 		<xsl:param name="nextSeparator"/>
 		<xsl:param name="lastTextDisplayed"/>
 
-		
-
 		<xsl:choose>
 			<xsl:when test="$index > count(msxsl:node-set($list)/*/*)">
 				<xsl:call-template name="need_Dot">
@@ -9182,7 +7655,7 @@
 							</xsl:otherwise>
 						</xsl:choose>
 					</xsl:with-param>
-				</xsl:call-template>					
+				</xsl:call-template>
 			</xsl:when>
 			<xsl:when test="local-name(msxsl:node-set($list)/*/*[$index]) = 'GroupSeparator'">
 				<xsl:call-template name="PrintList2">
@@ -9192,7 +7665,7 @@
 						<xsl:call-template name="templ_prop_GroupSeparator"/>
 					</xsl:with-param>
 					<xsl:with-param name="lastTextDisplayed" select="$lastTextDisplayed" />
-				</xsl:call-template>			
+				</xsl:call-template>
 			</xsl:when>
 			<xsl:when test="local-name(msxsl:node-set($list)/*/*[$index]) = 'CopyItem'">
 				<xsl:variable name="item">
@@ -9239,38 +7712,38 @@
 	<xsl:template name="ApplyItalicTitleNS">
 		<xsl:param name="data" />
 
-	    <xsl:variable name="prop_NoItalics">
-	      <xsl:call-template name="templ_prop_NoItalics"/>
-	    </xsl:variable>
+		<xsl:variable name="prop_NoItalics">
+			<xsl:call-template name="templ_prop_NoItalics"/>
+		</xsl:variable>
 
 		<xsl:choose>
 			<xsl:when test = "$prop_NoItalics = 'yes'">
 				<xsl:variable name = "prop_TitleOpen">
-		      		<xsl:call-template name="templ_prop_TitleOpen"/>
+					<xsl:call-template name="templ_prop_TitleOpen"/>
 				</xsl:variable>
 				<xsl:variable name = "prop_TitleClose">
-		      		<xsl:call-template name="templ_prop_TitleClose"/>
+					<xsl:call-template name="templ_prop_TitleClose"/>
 				</xsl:variable>
 				<xsl:variable name = "prop_OpenQuote">
-		      		<xsl:call-template name="templ_prop_OpenQuote"/>
+					<xsl:call-template name="templ_prop_OpenQuote"/>
 				</xsl:variable>
 				<xsl:variable name = "prop_CloseQuote">
-		      		<xsl:call-template name="templ_prop_CloseQuote"/>
+					<xsl:call-template name="templ_prop_CloseQuote"/>
 				</xsl:variable>
 				<xsl:choose>
 					<xsl:when test = "string-length($prop_TitleOpen) > 0 and string-length($prop_TitleClose) > 0 and string-length($prop_OpenQuote) > 0 and string-length($prop_CloseQuote) > 0 and 
 					              not(starts-with($data, $prop_TitleOpen) or (substring($data, string-length($data) - string-length($prop_TitleClose)) = $prop_TitleClose) or starts-with($data, $prop_OpenQuote) or (substring($data, string-length($data) - string-length($prop_CloseQuote)) = $prop_CloseQuote))">
-			      		<xsl:call-template name="templ_prop_TitleOpen"/>
+						<xsl:call-template name="templ_prop_TitleOpen"/>
 						<xsl:copy-of select="msxsl:node-set($data)" />
 						<xsl:call-template name="templ_prop_TitleClose"/>
 					</xsl:when>
 					<xsl:when test = "string-length($prop_TitleOpen) > 0 and string-length($prop_TitleClose) > 0 and 
 					              not(starts-with($data, $prop_TitleOpen) or (substring($data, string-length($data) - string-length($prop_TitleClose)) = $prop_TitleClose))">
-			      		<xsl:call-template name="templ_prop_TitleOpen"/>
+						<xsl:call-template name="templ_prop_TitleOpen"/>
 						<xsl:copy-of select="msxsl:node-set($data)" />
 						<xsl:call-template name="templ_prop_TitleClose"/>
 					</xsl:when>
-		      		<xsl:otherwise>
+					<xsl:otherwise>
 						<xsl:copy-of select="msxsl:node-set($data)" />
 					</xsl:otherwise>
 				</xsl:choose>
@@ -9286,9 +7759,9 @@
 	<xsl:template name="ApplyItalicFieldNS">
 		<xsl:param name="data" />
 
-	    <xsl:variable name="prop_NoItalics">
-	      <xsl:call-template name="templ_prop_NoItalics"/>
-	    </xsl:variable>
+		<xsl:variable name="prop_NoItalics">
+			<xsl:call-template name="templ_prop_NoItalics"/>
+		</xsl:variable>
 
 		<xsl:choose>
 			<xsl:when test = "$prop_NoItalics = 'yes'">
@@ -9301,5 +7774,5 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
+
 </xsl:stylesheet>
