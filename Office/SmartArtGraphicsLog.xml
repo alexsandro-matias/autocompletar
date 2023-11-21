@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="res://C:\Program Files\Common Files\Microsoft Shared\Office16\1046\MSOINTL.DLL/SMARTARTGRAPHICSLOG.XSLT" type="text/xsl"?>
+<log>
+   <entry>
+       <time>2023-10-25T09:41:12.958</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-25T09:41:13.047</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-25T09:41:13.282</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-25T09:41:13.457</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-25T09:43:48.540</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-25T09:44:33.077</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-26T06:59:19.686</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-26T06:59:19.791</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-26T06:59:20.039</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-26T06:59:20.253</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:13:01.292</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:13:01.382</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:13:01.613</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:13:01.862</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:33:37.279</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T08:33:49.643</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T12:20:31.374</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T12:20:31.478</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T12:20:31.618</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-10-31T12:20:31.884</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/VerticalCurvedList</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=text_1 *layoutNode=Name1 *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:27.061</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:27.073</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:27.759</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:27.761</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:28.336</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-17T21:46:28.337</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T09:56:56.644</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T09:56:56.647</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T09:56:57.355</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T09:56:57.362</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T10:02:38.234</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T10:02:38.236</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T10:25:42.078</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+    <entry>
+       <time>2023-11-20T10:25:42.080</time>
+       <sev>warn3</sev>
+       <host>POWERPNT.EXE</host>
+       <uniqueId>urn:microsoft.com/office/officeart/2008/layout/AlternatingHexagons</uniqueId>
+       <type>constraintOrder</type>
+       <desc>Um algoritmo composite avalia suas restrições na ordem do nó filho. A ordem das restrições e os nós deste nó de layout devem coincidir.</desc>
+       <context>*constr type=l for=ch forName=Parent1 *layoutNode=composite *alg=composite</context>
+   </entry>
+</log>
