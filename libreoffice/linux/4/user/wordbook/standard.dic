@@ -2,12 +2,18 @@ OOoUserDict1
 lang: <none>
 type: positive
 ---
+=======
+27001:2013
+3:2021
+<<<<<<< HEAD
+>>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 A.ID
 A.nome
 ACCIDENT
 AEGON
 AND
 ASC
+AWS
 Abcat
 Access
 Action
@@ -15,17 +21,17 @@ Administration
 Administrators
 Ageofcc
 Ageofocc
-<<<<<<< HEAD
-=======
+App
 BOOTPROTO
->>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 BROWNIE
 BTG
 BW
 BY
 Batch
+Bitbucket
 Bitmaps
 Body
+Boot
 Brainstorming
 Breakdown
 Buniness
@@ -50,6 +56,7 @@ DAYCOVAL
 DBA
 DBAs
 DDL
+DDos
 DESC
 DGCA
 DMA
@@ -59,22 +66,27 @@ DVT
 Database
 Definition
 Django
+Docker
 Dvacat
 Dvcat
 E.ID
 EAP
+EE
 EJB
 EP
 ETL
 Ed
 Ed.ID
 Elaboration
+Elasticsearch
 Eletric
 Eliliane
+Engine
 Engineering
 Enterprise
 FARANI
 FATALITIES
+FCC
 FIFO
 FROM
 FazSite
@@ -83,16 +95,22 @@ GANTT
 GC
 Gateways
 Gbps
+GitHub
+GitLab
 GlusterFS
 Hat
 Hawthorne
+Heroku
+Hibernate
 Highway
 IBOV
 IDs
+IEC
 IEEE
 IFPE
 INFLUENCES
 INFRA-ESTRUTURA
+IPv6
 ISBNs
 ITIL
 Inception
@@ -106,6 +124,9 @@ Interprise
 Invocation
 Ishikawa
 Isis
+JPA
+JSON
+Jakarta
 JavaBeans
 Kbytes
 Knowledge
@@ -126,6 +147,7 @@ MER
 MMU
 MONGERAL
 MOP
+MR-MPS-SW
 MacOSX
 Management
 Manipulation
@@ -166,17 +188,20 @@ PDCA
 PMBOK
 PMBoK
 PMI
+PaaS
 Pamesa
 Plan
 Play
 Procedures
 Process
 Project
+Python
 QR
 Qu
 Qualcomm
 Query
 RAID
+REST
 RLM
 RMI
 RPC
@@ -192,6 +217,7 @@ SELECT
 SGBD
 SGBDR
 SGBDs
+SOAP
 SQL
 SQLite
 Safety
@@ -208,6 +234,7 @@ Services
 Sex
 Snapdragon
 Spanned
+Spring
 Storage
 Structure
 Studio
@@ -215,18 +242,18 @@ Sybase
 System
 TCC
 TCC's
+TDD
 TED
+TLS
 TPC-H
-<<<<<<< HEAD
-=======
 Tecorel
->>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 Teradata
 Thread
 Threads
 Touch
 Traffic
 Transition
+Typescript
 UML
 Uberização
 Unified
@@ -236,6 +263,7 @@ VA
 Valduriez
 WBS
 Whatsapp
+Wildfly
 Wireless
 Work
 Worst-fit
@@ -281,6 +309,7 @@ cloud
 cluster
 clusters
 code
+computing
 constraint
 contra-escopo
 coupled
@@ -290,34 +319,28 @@ dead
 deadlocks
 default
 deploy
-<<<<<<< HEAD
-=======
 dev
 dhcp
->>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 diferen
 direira.coluna
 direita.coluna
 dirty
-<<<<<<< HEAD
-display
-doc
-=======
 disk
 display
 doc
 domain
->>>>>>> 5afc18bb0baed999a350475795ef2d0195625be2
 driver
 dvcat
 e.nome
 edge
+edicao
 elianemaria@olympus.com
 english
 esquerda.colula
 esquerda.coluna
 expert
 extents
+fake
 feedbacks
 first-fit
 fk
@@ -331,6 +354,7 @@ gantt
 gateway
 generator
 group
+hashing
 hist
 holes
 host
@@ -369,6 +393,7 @@ multicomputadores
 multiprogramáveis
 nassCDS.csv
 navalhete
+news
 nodeploy
 none
 null
@@ -448,4 +473,5 @@ www.pmcanvas.com.br
 www.professorboaratti.com.br
 yearVeh
 yearacc
+yml
 Õzsu
