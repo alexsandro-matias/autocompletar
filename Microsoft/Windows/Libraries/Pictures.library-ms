@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
+  <name>@shell32.dll,-34595</name>
+  <ownerSID>S-1-5-21-1714660155-2605590381-1106987878-1001</ownerSID>
+  <version>28</version>
+  <isLibraryPinned>true</isLibraryPinned>
+  <iconReference>imageres.dll,-1003</iconReference>
+  <templateInfo>
+    <folderType>{b3690e58-e961-423b-b687-386ebfd83239}</folderType>
+  </templateInfo>
+  <propertyStore>
+    <property name="HasModifiedLocations" type="boolean"><![CDATA[true]]></property>
+  </propertyStore>
+  <searchConnectorDescriptionList>
+    <searchConnectorDescription publisher="Microsoft" product="Windows">
+      <description>@shell32.dll,-34597</description>
+      <isDefaultSaveLocation>true</isDefaultSaveLocation>
+      <isDefaultNonOwnerSaveLocation>true</isDefaultNonOwnerSaveLocation>
+      <simpleLocation>
+        <url>knownfolder:{33E28130-4E1E-4676-835A-98395C3BC3BB}</url>
+        <serialized>MBAAAEAFCAAAAAAAADAAAAAAAY0gAAQDRAAAAYSldc0wvodAAbiGjb8LaHgLOCx4G/i2BAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEWAUAwHQB+TQDi66kGEiiNCAsCMw0ZKAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGiawbXyzco0vO55F76mnwBFAxAAAAAAAAAAAAABAVNXZyNHA8AQCAQAAv7LAAAAAAAAAA4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFAzBQZAIHAzBAAAQBAQBQMAAAAAAAAAAAAQAQYs1WZpBAPAkAAEAw7+CAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhBAbA0GAlBQaAAAAUAggAEDAAAAAAA5V2LREAAVajRXdyV2cAAgaAkAAEAw7+C5V68AkXZvEuAAAAs+rBAAAAEAAAAAAAAAAAAAQAAAAAAg0psSAQBQaAMGA0BQdAIHAlBwcAAAAABwcAgGAlBAbAwGAzAgMA4CAkBAbAwGAsAQLAIDAxAwNAcDA5AAAAgBAAAgRAAAAcAAAAEAAAAAHAAAAtAAAAAAAAAQRAAAARAAAAMAAAAQTBdmbQAAAAAwQ6wVVzVmczxVYs1WZpxFUpNGd1JXZzBAAQAAAAUAAAA6JAAAAfFAAAwBAAAwCAAAowEo4z4hT2Z0gahZOctzw7+VAAAAYAAAADAAAgiFAAAAAAAAAhxWZ4NXYuRmcvBAAAAAAAILnwd7JY49TSqA4HuQbwmcN3srb5up7RIpewMAye3KYyyJc3eCGe/kkKA+hL0GsJXzN76Wub6eESqHMDgs3tCm0AAAAJAAAg2IAAAQMTB1UirIWGxLT4M0u8PxkmgZbOHHAAAABAAAAA8BAAAwLAAAATBQLAEDAtAQNA0CAyAQMA0CAxAwNAEDA0AgNAYDAwAQMAUDA1AQLAIDA2AAMAUDA1AQOAADAzAAOAEDAtAQMAEDAwAgNAkDA4AwNAgDA3AAOA0CAxAAMAADAxAAAAAAAAAAAAkDAAAQMTB1UxaRbE1ajwh0pIBkLk2DeM2BAAAAaAAAAAgEAAAghoG82l8MHK9rTeexuu5JcAAAAAAAAAAAAAAAA</serialized>
+      </simpleLocation>
+    </searchConnectorDescription>
+  </searchConnectorDescriptionList>
+</libraryDescription>
