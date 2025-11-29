@@ -1,0 +1,157 @@
+git pull
+cmd
+node -v
+npm -v
+ng new projeto
+cmd
+git 
+git-bash
+gitbash
+bash
+ls
+code .
+git pull
+cd ..
+ls
+cd .\roadmap_python\
+git pull
+code .
+python
+pip install SpeechRecognition
+code .
+ls
+cd .\base_python\
+code .
+cmd
+ls
+cd .\ambiente_virtual_netflix\
+ls
+.\Scripts\Activate.ps1
+cmd 
+git clone git@github.com:alexsandro-matias/analise-dados-netflix.git
+code .
+python -m pip install --upgrade pip
+cmd 
+python -m pip install --upgrade pip
+cmd
+git status
+git pull
+git status
+git pull
+mvn clean verify
+curl -version
+curl -v
+curl
+cmd
+curl
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer EAAJB...' \
+curl 'https://graph.facebook.com/v17.0/106540352242922/messages' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer EAAJB...' \
+curl -i -X POST ``
+  https://graph.facebook.com/v18.0/278643148670773/messages ``
+  -H 'Authorization: Bearer EAALGKrlZAewQBO2VujgocEky97kaDzYy443YQItwzoVj23k8wahz2liK1cp7zBjWdRPFlYIvVZArjDZB5pNj9UglmOR0urrXp9ZA4RiA8SRDKDBiUozHIO0KCqZAFLwE3fuJFQvCpN8wOUA6WDDRCaVcxXB5tAKdMZAkNzDoWVMj7UdLXqLwJkLAoK6dClyt6O6WKRgykt91eIIpHzvgQCCu7n6lpx' ``
+  -H 'Content-Type: application/json' ``
+  -d '{ \"messaging_product\": \"whatsapp\", \"to\": \"5581999045997\", \"type\": \"template\", \"template\": { \"name\": \"ifpe\", \"language\": { \"code\": \"en_US\" } } }'
+cmd
+git clone git@github.com:alexsandro-matias/concursos.git
+curl -i -X POST    https://graph.facebook.com/v18.0/278643148670773/messages    -H 'Authorization: Bearer EAALGKrlZAewQBOZBgPWFn8vw8AWaXWpij7ylG5gAd2QfyXNAnGXmvaB1DkbE61Cp8kduMlTOVO8CyYjOQe3tvfljSZAhjf9yKgwsAqVGvZAdo1Jw5LCmwgIVUNeZAfitTpZAuZAEmGRbLtJCOW5ZA5lG6OstetXLwPvwZC5fumPbKydG3Qmke8Cu9aWcAa85nYjlKe4oRXxBLBje1fMTzZByjtWQ03o4gZD'    -H 'Content-Type: application/json'    -d '{ "messaging_product": "whatsapp", "to": "5581999045997", "type": "template", "template": { "name": "comunicao_ifpe", "language": { "code": "en_US" } } }'
+iex "& { $(iwr https://ps.jbang.dev) } trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/"
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+iex "& { $(iwr https://ps.jbang.dev) } trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/"
+iex "& { $(iwr https://ps.jbang.dev) } app install --fresh --force quarkus@quarkusio"
+cd .\Documents\
+quarkus create
+javac -v
+javac -V
+javac --version
+ls
+cd .\code-with-quarkus\
+quarkus.cmd dev
+quarkus dev
+cd .\code-with-quarkus\
+ls
+cd .\Documents\
+ls
+quarkus dev
+cd .\code-with-quarkus\
+ls
+quarkus dev
+cd .\Documents\code-with-quarkus\
+ls
+mvnw quarkus:add-extensions -Dextensions="jdbc-h2,hibernate-orm,hibernate-orm-panache,resteasy-jsonb"
+.\mvnw quarkus:add-extensions -Dextensions="jdbc-h2,hibernate-orm,hibernate-orm-panache,resteasy-jsonb"
+.\mvnw quarkus:add-extensions -Dextensions="jdbc-h2,hibernate-orm,hibernate-orm-panache,resteasy"
+cd .\Documents\
+ls
+cd .\code-with-quarkus\
+quarkus dev
+ls
+cd ..
+ls
+mv .\code-with-quarkus\ quarkus1
+ls
+git clone https://github.com/quarkusio/quarkus-quickstarts.git
+ls
+cd .\eclipse-workspace\
+cd .\zapzap\
+pwd
+ls
+quarkus dev
+cd .\eclipse-workspace\zapzap\
+ls
+quarkus dev
+cd .\eclipse-workspace\zapzap\
+ls
+quarkus dev
+git pull
+py
+cmd
+ls
+cd .\ambiente_zap\Scripts\
+ls
+.\activate
+pip install os 
+ python.exe -m pip install --upgrade pip
+pip install os 
+ls
+cd .\ambiente_zap\Scripts\
+.\Activate.ps1
+pip install selenium
+pip install os time request
+pip install time request
+pip install time
+pip install request
+pip install webdriver-manager
+pip install options
+pip install os-win
+pip install requests
+pip install openai
+pip install pysimplegui
+ls
+git status
+git stat
+git status
+ls
+cd .\ambiente_zap\Scripts\
+ls
+.\Activate.ps1
+ls
+cd .\ambiente_zap\
+ls
+cd .\Scripts\
+ls
+.\Activate.ps1
+ls
+cd ..
+ls
+cd ..
+ls
+python.exe .\app.py
+git status
+git add .
+git status
+git commit -m "salvando a sessão do usuário"
+git push
+git status
